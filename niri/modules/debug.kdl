@@ -1,0 +1,4 @@
+// NOTE: DEBUG config file
+debug {
+	honor-xdg-activation-with-invalid-serial
+}

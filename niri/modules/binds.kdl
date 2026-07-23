@@ -1,0 +1,259 @@
+// Binds config file
+binds {
+	// Niri useful shortcuts
+	Mod+Ctrl+Shift+A repeat=false {
+		spawn "kitty" "-e" "nvim" "~/.config/niri"
+	}
+	Mod+Ctrl+Shift+N repeat=false {
+		spawn "kitty" "-e" "nvim" "/etc/nixos"
+	}
+	Mod+Ctrl+Shift+R repeat=false {
+		spawn "niri" "msg" "action" "load-config-file" "--path" "~/.config/niri/config.kdl"
+	}
+	Mod+Ctrl+Shift+E repeat=false {
+		spawn "kitty" "-e" "nvim" "~/.config"
+	}
+
+	// KeyBoard
+	Alt+Tab  repeat=false {
+		switch-layout "next"
+	}
+
+	// Apps
+    	Mod+Q repeat=false {
+		spawn "kitty"
+	}
+	Mod+E repeat=false {
+		spawn "nautilus"
+	}
+	Mod+I repeat=false {
+		spawn "nwg-look"
+	}
+	Mod+Z repeat=false {
+		spawn "zen"
+	}
+	Mod+Shift+E repeat=false {
+		spawn "kitty" "-e" "nvim"
+	}
+	Mod+O repeat=false {
+		spawn "kitty" "-e" "opencode"
+	}
+	Mod+M repeat=false {
+		spawn "flatpak" "run" "io.github.elyprismlauncher.ElyPrismLauncher"
+	}
+
+	// Window
+    	Mod+C repeat=false {
+		close-window
+	}
+    	Mod+Left repeat=false {
+		focus-column-left
+	}
+    	Mod+Down repeat=false {
+		focus-window-down
+	}
+    	Mod+Up repeat=false {
+		focus-window-up
+	}
+   	Mod+Right repeat=false {
+		focus-column-right
+	}
+    	Mod+Shift+Left repeat=false {
+		move-column-left
+	}
+    	Mod+Shift+Down repeat=false {
+		move-window-down
+	}
+    	Mod+Shift+Up repeat=false {
+		move-window-up
+	}
+    	Mod+Shift+Right repeat=false {
+    		move-column-right
+	}
+	Mod+Ctrl+Shift+Left repeat=false {
+    		consume-window-into-column
+	}
+    	Mod+Ctrl+Shift+Right repeat=false {
+		expel-window-from-column
+	}
+	Mod+Ctrl+F repeat=false {
+		fullscreen-window
+	}
+	Mod+Shift+F repeat=false {
+		maximize-column
+	}
+	Mod+F repeat=false {
+		toggle-window-floating
+	}
+	Mod+Ctrl+Left {
+		set-column-width "-2%"
+	}
+    	Mod+Ctrl+Right {
+		set-column-width "+2%"
+	}
+    	Mod+Ctrl+Up {
+		set-window-height "-2%"
+	}
+    	Mod+Ctrl+Down {
+		set-window-height "+2%"
+	}
+	Mod+Ctrl+R repeat=false {
+		switch-preset-column-width
+	}
+
+	// Workspace
+    	Mod+1 {
+    		focus-workspace 1
+	}
+    	Mod+2 {
+		focus-workspace 2
+	}
+    	Mod+3 {
+		focus-workspace 3
+	}
+    	Mod+4 {
+		focus-workspace 4
+	}
+    	Mod+5 {
+		focus-workspace 5
+	}
+    	Mod+6 {
+		focus-workspace 6
+	}
+    	Mod+7 {
+		focus-workspace 7
+	}
+    	Mod+8 {
+		focus-workspace 8
+	}
+    	Mod+9 {
+		focus-workspace 9
+	}
+	Mod+0 {
+		focus-workspace 10
+	}
+    	Mod+Shift+1 {
+		move-window-to-workspace 1
+	}
+    	Mod+Shift+2 {
+		move-window-to-workspace 2
+	}
+    	Mod+Shift+3 {
+		move-window-to-workspace 3
+	}
+    	Mod+Shift+4 {
+		move-window-to-workspace 4
+	}
+    	Mod+Shift+5 {
+		move-window-to-workspace 5
+	}
+    	Mod+Shift+6 {
+		move-window-to-workspace 6
+	}
+    	Mod+Shift+7 {
+		move-window-to-workspace 7
+	}
+    	Mod+Shift+8 {
+		move-window-to-workspace 8
+	}
+    	Mod+Shift+9 {
+		move-window-to-workspace 9
+	}
+	Mod+Shift+0 {
+		move-window-to-workspace 10
+	}
+	Mod+WheelScrollDown {
+		focus-workspace-down
+	}
+    	Mod+WheelScrollUp {
+		focus-workspace-up
+	}
+	Ctrl+Alt+Up repeat=false {
+		focus-workspace-up
+	}
+	Ctrl+Alt+Down repeat=false {
+		focus-workspace-down
+	}
+
+	// Screenshot
+    	Print repeat=false {
+		screenshot
+	}
+    	Mod+Print repeat=false {
+		screenshot-screen
+	}
+    	Mod+Shift+Print repeat=false {
+		screenshot-window
+	}
+
+	//Fn + Layers + Quickshell
+	Mod+W repeat=false {
+		toggle-overview
+	}
+	Mod+Shift+C repeat=false {
+		spawn-sh "kitty -e /home/dimunyx/.config/niri/scripts/color-pick.sh"
+	}
+	Mod+Space repeat=false {
+		spawn-sh "qs ipc call appLauncher apps"
+	}
+	Mod+V repeat=false {
+		spawn-sh "qs ipc call appLauncher clip"
+	}
+	Mod+Shift+V repeat=false {
+		spawn-sh "qs ipc call appLauncher clipClear"
+	}
+	Mod+R repeat=false {
+		spawn-sh "qs ipc call appLauncher cmd"
+	}
+	Mod+Ctrl+W repeat=false {
+		spawn-sh "qs ipc call appLauncher windows"
+	}
+	Mod+L repeat=false {
+		spawn-sh "qs ipc call session lock"
+	}
+	Mod+N repeat=false {
+		spawn-sh "qs ipc call notifications toggle"
+	}
+	Mod+Shift+N repeat=false {
+		spawn-sh "qs ipc call notifications dnd"
+	}
+	Mod+Escape repeat=false {
+		spawn-sh "qs ipc call session toggle"
+	}
+	XF86AudioMute repeat=false {
+		spawn-sh "qs ipc call volume volMute"
+	}
+	XF86AudioLowerVolume {
+		spawn-sh "qs ipc call volume volDown"
+	}
+	XF86AudioRaiseVolume {
+		spawn-sh "qs ipc call volume volUp"
+	}
+	XF86AudioMicMute repeat=false {
+		spawn-sh "qs ipc call volume micMute"
+	}
+	XF86MonBrightnessUp {
+		spawn-sh "qs ipc call brightness brightUp"
+	}
+	XF86MonBrightnessDown {
+		spawn-sh "qs ipc call brightness brightDown"
+	}
+	XF86AudioPlay repeat=false {
+		spawn-sh "qs ipc call media playPause"
+	}
+	XF86AudioPause repeat=false {
+		spawn-sh "qs ipc call media playPause"
+	}
+	XF86AudioStop repeat=false {
+		spawn-sh "qs ipc call media pause"
+	}
+	Xf86AudioNext repeat=false {
+		spawn-sh "qs ipc call media next"
+	}
+	XF86AudioPrev repeat=false {
+		spawn-sh "qs ipc call media previous"
+	}
+	XF86Calculator repeat=false {
+		spawn "gnome-calculator"
+	}
+}

@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR fish_greeting:
+SETUVAR fish_user_paths:/home/dimunyx/\x2eopencode/bin\x1e/home/dimunyx/\x2espicetify

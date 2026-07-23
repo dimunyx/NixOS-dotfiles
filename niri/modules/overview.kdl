@@ -1,0 +1,6 @@
+// Overview config file
+overview {
+	workspace-shadow {
+		off
+	}
+}

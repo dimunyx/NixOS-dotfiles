@@ -1,0 +1,19 @@
+[general]
+sensitivity = 100
+bars = 0
+bar_width = 5
+bar_spacing = 1
+centered = true
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+method = ncurses
+
+[eq]
+eq_facets = 1.0; 1.3; 1.0; 0.8; 0.6; 0.5; 0.4; 0.4; 0.5; 0.6
+
+[color]
+theme = "dimunyx-shell"

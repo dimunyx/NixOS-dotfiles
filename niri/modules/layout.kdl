@@ -1,0 +1,30 @@
+// Layout config file
+layout {
+    	gaps 12
+	background-color "transparent"
+    	default-column-width {
+		proportion 0.5
+	}
+    	focus-ring {
+        	off
+   	}
+    	border {
+        	on
+        	width 4
+		active-color   "#b58fff"
+        	inactive-color "#000000"
+        	urgent-color   "#ff6f9b"
+    	}
+    	shadow {
+    		off
+	}
+	preset-column-widths {
+        	proportion 0.25
+        	proportion 0.50
+        	proportion 0.75
+        	proportion 1.0
+    	}
+	insert-hint {
+        	color "#b58fff"
+    	}
+}

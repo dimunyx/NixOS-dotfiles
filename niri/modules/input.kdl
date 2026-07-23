@@ -1,0 +1,23 @@
+// Input config file
+input {
+	keyboard {
+        	xkb {
+            		layout "us,ru"
+		}
+    	}
+    	touchpad {
+        	tap
+        	natural-scroll
+		scroll-factor 0.5
+        	accel-profile "flat"
+        	scroll-method "two-finger"
+    	}
+	mouse {
+		accel-profile "flat"
+		accel-speed -0.8
+	}
+    	trackpoint {
+	    	off
+    	}
+	focus-follows-mouse
+}

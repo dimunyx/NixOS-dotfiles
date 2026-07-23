@@ -1,0 +1,25 @@
+Не удалось загрузить расширение «Optimized PNG», потому что a dependency was not met. Зависимость:
+	тип: executable
+	положение: контуру
+	строка: optipng
+
+Не удалось загрузить расширение «Formula (pdflatex)», потому что a dependency was not met. Зависимость:
+	тип: executable
+	положение: контуру
+	строка: pdflatex
+
+Не удалось загрузить расширение «Formula (typst)», потому что a dependency was not met. Зависимость:
+	тип: executable
+	положение: контуру
+	строка: typst
+
+Не удалось загрузить расширение «Export to PDF via Scribus», потому что a dependency was not met. Зависимость:
+	тип: executable
+	положение: контуру
+	строка: scribus
+
+Не удалось загрузить расширение «XFIG Input», потому что a dependency was not met. Зависимость:
+	тип: executable
+	положение: контуру
+	строка: fig2dev
+

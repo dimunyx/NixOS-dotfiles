@@ -1,0 +1,5 @@
+// Cursor config file
+cursor {
+    	xcursor-theme "Bibata-Modern-Classic"
+    	xcursor-size 32
+}

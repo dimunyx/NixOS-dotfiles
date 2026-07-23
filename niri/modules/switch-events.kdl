@@ -1,0 +1,6 @@
+// Switch events config file
+switch-events {
+	lid-close {
+		spawn "hyprlock" "-c" "~/.config/niri/configs/lockscreen.conf"
+	}
+}

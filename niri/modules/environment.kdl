@@ -1,0 +1,12 @@
+// Environment config file
+environment {
+	QT_QPA_PLATFORM "wayland"
+	GDK_BACKEND "wayland"
+	SDL_VIDEODRIVER "wayland"
+	CLUTTER_BACKEND "wayland"
+	ELECTRON_OZONE_PLATFORM_HINT "auto"
+	CURSOR_THEME "Bibata-Modern-Classic"
+	CURSOR_SIZE "32"
+	XCURSOR_THEME "Bibata-Modern-Classic"
+	XCURSOR_SIZE "32"
+}
