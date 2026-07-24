@@ -50,7 +50,7 @@ QMenuBar::item:pressed {
         color: #B58FFF;
 }
 QMenu {
-        background-color: #110D1A;
+        background-color: #000000;
         color: #E8D8FF;
         border: 4px solid #B58FFF;
         border-radius: 16px;
