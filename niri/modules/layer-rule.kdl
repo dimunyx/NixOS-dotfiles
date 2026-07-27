@@ -1,5 +1,0 @@
-// Layer rule config file
-layer-rule {
-    	match namespace="^wallpaper$"
-    	place-within-backdrop true
-}

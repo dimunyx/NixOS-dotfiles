@@ -1,6 +1,0 @@
-// Switch events config file
-switch-events {
-	lid-close {
-		spawn "qs" "ipc" "call" "session" "lock"
-	}
-}

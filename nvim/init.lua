@@ -395,9 +395,9 @@ vim.lsp.config('qmlls', {
 })
 
 -- Harper-ls (grammar & spelling)
-vim.lsp.config('harper_ls', {
+vim.lsp.config('harper-ls', {
         cmd = { 'harper-ls' },
-        filetypes = { 'markdown', 'text', 'nix' },
+        filetypes = { 'markdown', 'text', 'nix', 'cpp' },
         root_markers = { '.git' },
 })
 

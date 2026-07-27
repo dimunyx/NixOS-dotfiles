@@ -1,7 +1,0 @@
-// Overview config file
-overview {
-	zoom 0.45
-	workspace-shadow {
-		off
-	}
-}
