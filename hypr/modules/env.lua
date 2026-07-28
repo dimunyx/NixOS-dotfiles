@@ -1,5 +1,4 @@
--- NOTE: Hyprland environment config file
-hl.env("WLR_DRM_NO_ATOMIC", "1")
+-- NOTE: `Hyprland` environment config file
 hl.env("QT_QPA_PLATFORM", "wayland")
 hl.env("GDK_BACKEND", "wayland")
 hl.env("SDL_VIDEO_DRIVER", "wayland")
