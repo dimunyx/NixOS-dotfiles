@@ -9,7 +9,7 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "Allow tearing for all apps",
+	name = "Enable tearing for all apps",
 	match = {
 		class = ".*"
 	},

@@ -5,9 +5,8 @@ hl.config({
 		disable_splash_rendering = true,
 		disable_scale_notification = true,
 		force_default_wallpaper = false,
-		animate_manual_resizes = true,
-		animate_mouse_windowdragging = true,
 		middle_click_paste = false,
-		disable_watchdog_warning = true
+		disable_watchdog_warning = true,
+		vrr = 1
 	}
 })

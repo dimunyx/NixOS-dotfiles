@@ -3,8 +3,8 @@ hl.config({
 	decoration = {
 		rounding = 16,
 		rounding_power = 2,
-		active_opacity = 0.95,
-		inactive_opacity = 0.75,
+		active_opacity = 1,
+		inactive_opacity = 0.8,
 		fullscreen_opacity = 1,
 		shadow = {
         		enabled = true,
@@ -25,9 +25,9 @@ hl.config({
         		brightness = 1.0,
         		vibrancy = 0.1696,
         		vibrancy_darkness = 0.0,
-        		ignore_opacity = true,
+        		ignore_opacity = false,
         		new_optimizations = true,
-        		xray = true,
+        		xray = false,
         		popups = false,
         		popups_ignorealpha = 0.2,
         		input_methods = false,
@@ -39,7 +39,6 @@ hl.config({
 		},
 		motion_blur = {
 			enabled = true,
-			samples = 5
 		}
 	}
 })
