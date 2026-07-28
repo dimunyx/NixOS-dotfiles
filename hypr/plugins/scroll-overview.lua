@@ -12,9 +12,4 @@ if hl.plugin.scrolloverview then
 	hl.bind("SUPER + W", function()
     		hl.plugin.scrolloverview.overview("toggle all")
 	end)
-	hl.plugin.scrolloverview.gesture({
-		fingers = 4,
-		direction = "vertical",
-		action = ("overview")
-	})
 end

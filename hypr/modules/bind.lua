@@ -17,10 +17,10 @@ hl.bind(mod .. " + SHIFT + LEFT", hl.dsp.window.move({ direction = "left" }))
 hl.bind(mod .. " + SHIFT + RIGHT", hl.dsp.window.move({ direction = "right" }))
 hl.bind(mod .. " + SHIFT + UP", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mod .. " + SHIFT + DOWN", hl.dsp.window.move({ direction = "down" }))
-hl.bind(mod .. " + CTRL + LEFT", hl.dsp.window.resize({ x = -10, y = 0, relative = true }))
-hl.bind(mod .. " + CTRL + RIGHT", hl.dsp.window.resize({ x = 10, y = 0, relative = true }))
-hl.bind(mod .. " + CTRL + UP", hl.dsp.window.resize({ x = 0, y = -10, relative = true }))
-hl.bind(mod .. " + CTRL + DOWN", hl.dsp.window.resize({ x = 0, y = 10, relative = true }))
+hl.bind(mod .. " + CTRL + LEFT", hl.dsp.window.resize({ x = -10, y = 0, relative = true }), { repeating = true })
+hl.bind(mod .. " + CTRL + RIGHT", hl.dsp.window.resize({ x = 10, y = 0, relative = true }), { repeating = true } )
+hl.bind(mod .. " + CTRL + UP", hl.dsp.window.resize({ x = 0, y = -10, relative = true }), { repeating = true } )
+hl.bind(mod .. " + CTRL + DOWN", hl.dsp.window.resize({ x = 0, y = 10, relative = true }), { repeating = true } )
 
 -- Workspace management
 for i = 1, 10 do
@@ -29,12 +29,14 @@ for i = 1, 10 do
 	hl.bind(mod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i, follow = true }))
 	hl.bind(mod .. " + CTRL + " .. key, hl.dsp.window.move({ workspace = i, follow = false }))
 end
+hl.bind("CTRL + ALT + UP", hl.dsp.focus({ workspace = "e-1" }))
+hl.bind("CTRL + ALT + DOWN", hl.dsp.focus({ workspace = "e+1" }))
 
 -- Mouse management
 hl.bind(mod .. " + mouse:272", hl.dsp.window.drag())
 hl.bind(mod .. " + mouse:273", hl.dsp.window.resize())
-hl.bind(mod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+hl.bind(mod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1"}))
+hl.bind(mod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1"}))
 
 -- Layers + `Quickshell`
 hl.bind(mod .. " + SHIFT + C", hl.dsp.exec_cmd("hyprpicker"))
