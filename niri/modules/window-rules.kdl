@@ -1,0 +1,26 @@
+// NOTE: `Niri` window rules configuration file
+
+// Decoration
+window-rule {
+	geometry-corner-radius 16
+	clip-to-geometry true
+	background-effect {
+        	blur true
+		xray false
+    	}
+}
+window-rule {
+    	match is-active=true
+    	opacity 1.0
+}
+
+window-rule {
+    	match is-active=false
+    	opacity 0.75
+}
+
+// Apps
+window-rule {
+	match app-id="org.gnome.Calculator"
+	open-floating true
+}

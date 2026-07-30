@@ -1041,6 +1041,9 @@
             "enabled": true,
             "settingsLocation": "aboveNitro",
             "includeVencordInfoWhenCopying": true
+        },
+        "LastFMRichPresence": {
+            "enabled": false
         }
     },
     "themeLinks": [],
@@ -1066,6 +1069,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1784827358814
+        "settingsSyncVersion": 1785400673721
     }
 }

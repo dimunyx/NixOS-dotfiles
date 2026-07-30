@@ -1,0 +1,8 @@
+// NOTE: `Niri` overview configuration file
+overview {
+	zoom 0.45
+	workspace-shadow {
+		on
+		color "#1a1a1aee"
+	}
+}

@@ -1,0 +1,8 @@
+// NOTE: `Niri` monitor configuration file
+output "eDP1" {
+	mode "1920x1080@60.051"
+	scale 1
+	position x=0 y=0
+	transform "normal"
+	variable-refresh-rate
+}

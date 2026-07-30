@@ -1,0 +1,27 @@
+// `NiriWM` layout configuration file
+layout {
+	gaps 12
+	preset-column-widths {
+		proportion 0.25
+		proportion 0.50
+		proportion 0.75
+		proportion 1.00
+	}
+	focus-ring {
+		off
+	}
+	border {
+		on
+		width 4
+		active-color "#B58FFF"
+		inactive-color "#000000"
+		urgent-color "#FF6F9B"
+	}
+	shadow {
+        	on
+        	softness 16
+        	offset x=0 y=0
+        	color "#1a1a1aee"
+    	}
+	background-color "transparent"
+}

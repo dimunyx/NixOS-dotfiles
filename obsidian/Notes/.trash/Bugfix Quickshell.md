@@ -1,0 +1,11 @@
+
+- [x] CapsNumLock — заменить `while true` на Timer
+- [x] Workspaces — увеличить polling 50ms → 1000ms
+- [x] Notification toasts — убрать Repeater по всем нотификациям
+- [x] AppLauncher — исправить shell injection в emoji usage
+- [ ] Вынести общий PopupWindow компонент
+- [ ] Вынести общий HoverFill компонент
+- [ ] Вынести общий PctWrap компонент
+- [ ] Вынести общий Canvas компонент для графиков
+- [ ] Cava — приоритет MPRIS над playerctl
+- [ ] Wallpaper — заменить polling на `onStatusChanged`

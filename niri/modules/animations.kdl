@@ -1,0 +1,32 @@
+// NOTE: `Niri` animations configuration file
+animations {
+    	window-movement {
+        	spring damping-ratio=1.0 stiffness=2500 epsilon=0.0001
+    	}
+	window-open {
+    		duration-ms 200
+    		curve "linear"
+    		custom-shader r"
+			vec4 open_color(vec3 coords_geo, vec3 size_geo) {
+				vec3 tex_coords = niri_geo_to_tex * coords_geo;
+            			vec4 color = texture2D(niri_tex, tex_coords.st);
+            			float t = smoothstep(0.0, 1.0, niri_clamped_progress);
+            			t = sqrt(t);
+            			return color * t;
+        		}
+    		"
+	}
+	window-close {
+    		duration-ms 200
+    		curve "linear"
+    		custom-shader r"
+        		vec4 close_color(vec3 coords_geo, vec3 size_geo) {
+            			vec3 tex_coords = niri_geo_to_tex * coords_geo;
+            			vec4 color = texture2D(niri_tex, tex_coords.st);
+            			float t = smoothstep(0.0, 1.0, niri_clamped_progress);
+            			float alpha = pow(1.0 - t, 0.35);
+            			return color * alpha;
+        		}
+    		"
+	}
+}
