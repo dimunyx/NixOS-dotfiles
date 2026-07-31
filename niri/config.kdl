@@ -1,8 +1,10 @@
 //// NOTE: `NiriWM` main configuration file
+include "noctalia.kdl"
 include "modules/csd.kdl"
 include "modules/blur.kdl"
 include "modules/binds.kdl"
 include "modules/input.kdl"
+include "modules/debug.kdl"
 include "modules/layout.kdl"
 include "modules/cursor.kdl"
 include "modules/monitor.kdl"

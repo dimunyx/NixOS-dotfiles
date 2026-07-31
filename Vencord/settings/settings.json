@@ -5,7 +5,8 @@
     "enableReactDevtools": false,
     "enabledThemeLinks": [],
     "enabledThemes": [
-        "dimunyx-shell.theme.css"
+        "dimunyx-shell.theme.css",
+        "noctalia-material.theme.css"
     ],
     "frameless": true,
     "notifyAboutUpdates": false,
@@ -1069,6 +1070,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1785400673721
+        "settingsSyncVersion": 1785519431392
     }
 }

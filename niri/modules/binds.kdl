@@ -7,10 +7,10 @@ binds {
 	Mod+F repeat=false {
 		toggle-window-floating
 	}
-	Mod+Shift+F repeat=false {
+	Mod+Ctrl+F repeat=false {
 		fullscreen-window
 	}
-	Mod+Ctrl+F repeat=false {
+	Mod+Shift+F repeat=false {
 		maximize-column
 	}
 	Mod+Ctrl+R repeat=false {
@@ -118,72 +118,81 @@ binds {
 	Ctrl+Alt+Down repeat=false {
 		focus-workspace-down
 	}
-	// Layers + `Quickshell` management
+	// Layers + `Noctalia` management
 	Mod+Shift+C repeat=false {
 		spawn-sh "hyprpicker"
 	}
+	Mod+S repeat=false {
+		spawn-sh "noctalia msg panel-toggle control-center"
+	}
+	Mod+Shift+S repeat=false {
+		spawn-sh "noctalia msg settings-toggle"
+	}
 	Mod+Space repeat=false {
-		spawn-sh "d-qs ipc call appLauncher apps"
+		spawn-sh "noctalia msg panel-toggle launcher"
 	}
 	Mod+V repeat=false {
-		spawn-sh "d-qs ipc call appLauncher clip"
+		spawn-sh "noctalia msg panel-toggle clipboard"
 	}
 	Mod+Shift+V repeat=false {
-		spawn-sh "d-qs ipc call appLauncher clipClear"
+		spawn-sh "noctalia msg clipboard-clear"
 	}
-	Mod+R repeat=false {
-		spawn-sh "d-qs ipc call appLauncher cmd"
+	Mod+Shift+W repeat=false {
+		spawn-sh "noctalia msg panel-toggle wallpaper"
 	}
 	Mod+Ctrl+W repeat=false {
-		spawn-sh "d-qs ipc call appLauncher windows"
+		spawn-sh "noctalia msg panel-toggle launcher /win"
 	}
 	Mod+L repeat=false {
-		spawn-sh "d-qs ipc call session lock"
-	}
-	Mod+N repeat=false {
-		spawn-sh "d-qs ipc call notifications toggle"
-	}
-	Mod+Shift+N repeat=false {
-		spawn-sh "d-qs ipc call notifications dnd"
+		spawn-sh "noctalia msg session lock"
 	}
 	Mod+Escape repeat=false {
-		spawn-sh "d-qs ipc call session toggle"
+		spawn-sh "noctalia msg panel-toggle session"
+	}
+	Mod+Shift+N repeat=false {
+		spawn-sh "noctalia msg notification-dnd-toggle"
+	}
+	Mod+Ctrl+Shift+B repeat=false {
+		spawn-sh "noctalia msg bar-hide"
+	}
+	Mod+Ctrl+Shift+Alt+B repeat=false {
+		spawn-sh "noctalia msg bar-show"
 	}
 	XF86AudioMute repeat=false {
-		spawn-sh "d-qs ipc call volume volMute"
+		spawn-sh "noctalia msg volume-mute"
 	}
 	XF86AudioLowerVolume repeat=true {
-		spawn-sh "d-qs ipc call volume volDown"
+		spawn-sh "noctalia msg volume-down"
 	}
 	XF86AudioRaiseVolume repeat=true {
-		spawn-sh "d-qs ipc call volume volUp"
+		spawn-sh "noctalia msg volume-up"
 	}
 	XF86AudioMicMute repeat=false {
-		spawn-sh "d-qs ipc call volume micMute"
+		spawn-sh "noctalia msg mic-mute"
 	}
 	XF86MonBrightnessDown repeat=true {
-		spawn-sh "d-qs ipc call brightness brightDown"
+		spawn-sh "noctalia msg brightness-down"
 	}
 	XF86MonBrightnessUp repeat=true {
-		spawn-sh "d-qs ipc call brightness brightUp"
+		spawn-sh "noctalia msg brightness-up"
 	}
 	XF86Calculator repeat=false {
 		spawn-sh "gnome-calculator"
 	}
 	XF86AudioPlay repeat=false {
-		spawn-sh "d-qs ipc call media playPause"
+		spawn-sh "noctalia msg media toggle"
 	}
 	XF86AudioPause repeat=false {
-		spawn-sh "d-qs ipc call media playPause"
+		spawn-sh "noctalia msg media toggle"
 	}
 	XF86AudioStop repeat=false {
-		spawn-sh "d-qs ipc call media pause"
+		spawn-sh "noctalia msg media pause"
 	}
 	XF86AudioPrev repeat=false {
-		spawn-sh "d-qs ipc call media previous"
+		spawn-sh "noctalia msg media previous"
 	}
 	XF86AudioNext repeat=false {
-		spawn-sh "d-qs ipc call media next"
+		spawn-sh "noctalia msg media next"
 	}
 	// App management
 	Mod+Q repeat=false {

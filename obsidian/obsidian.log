@@ -310,3 +310,21 @@
 2026-07-29 19:44:33 Success.
 2026-07-29 19:44:33 Latest version is 1.12.7
 2026-07-29 19:44:33 App is up to date.
+2026-07-31 09:32:56 Loaded main app package /nix/store/n8irf69mbkc340xk8fb40l6lsc0bmxq6-obsidian-1.12.7/share/obsidian/obsidian.asar
+2026-07-31 09:32:57 Checking for update using Github
+2026-07-31 09:32:57 Success.
+2026-07-31 09:32:57 Latest version is 1.13.4
+2026-07-31 09:32:57 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.4/obsidian-1.13.4.asar.gz
+2026-07-31 09:32:58 Verifying hash & signature. Size= 8772423
+2026-07-31 09:32:58 Saving file
+2026-07-31 09:32:58 Update complete.
+2026-07-31 15:08:04 Loaded updated app package /home/dimunyx/.config/obsidian/obsidian-1.13.4.asar
+2026-07-31 15:08:04 Checking for update using Github
+2026-07-31 15:08:04 Success.
+2026-07-31 15:08:04 Latest version is 1.13.4
+2026-07-31 15:08:04 App is up to date.
+2026-07-31 15:39:39 Loaded updated app package /home/dimunyx/.config/obsidian/obsidian-1.13.4.asar
+2026-07-31 15:39:39 Checking for update using Github
+2026-07-31 15:39:40 Success.
+2026-07-31 15:39:40 Latest version is 1.13.4
+2026-07-31 15:39:40 App is up to date.

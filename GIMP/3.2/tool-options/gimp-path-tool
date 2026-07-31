@@ -1,0 +1,9 @@
+# GIMP gimp-path-tool options
+
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "ПП в ЗП (RGB)")
+(palette "Предыдущие цвета")
+
+# end of gimp-path-tool options

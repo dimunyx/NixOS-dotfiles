@@ -13,15 +13,11 @@ layout {
 	border {
 		on
 		width 4
-		active-color "#B58FFF"
-		inactive-color "#000000"
-		urgent-color "#FF6F9B"
 	}
 	shadow {
         	on
         	softness 16
         	offset x=0 y=0
-        	color "#1a1a1aee"
     	}
 	background-color "transparent"
 }

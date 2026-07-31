@@ -1,0 +1,33 @@
+[core]
+version = 1
+shell = "zsh"
+shell-login = false
+mode = "history"
+debug = false
+expand-alias = true
+auto-execute = false
+
+[ui]
+style = "modern"
+nerd-fonts = true
+hidden-files = true
+ghost-text = true
+max-suggestions = 100
+max-height = 15
+max-width = 0
+
+[git]
+filter-active-branch = true
+deduplicate-branches = true
+
+[updater]
+check-on-startup = true
+channel = "stable"
+check-interval = "24h"
+
+[keybindings]
+toggle-mode = "ctrl+r"
+toggle-menu = "shift+tab"
+select = "tab"
+navigate-up = "up"
+navigate-down = "down"

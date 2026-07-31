@@ -1,0 +1,12 @@
+{
+  "sort": "priority",
+  "tasks": [
+    {
+      "done": false,
+      "id": 1,
+      "priority": "medium",
+      "text": "Зделай GOOD Noctalia"
+    }
+  ],
+  "version": 2
+}

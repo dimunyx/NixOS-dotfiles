@@ -4,5 +4,4 @@ output "eDP1" {
 	scale 1
 	position x=0 y=0
 	transform "normal"
-	variable-refresh-rate
 }
