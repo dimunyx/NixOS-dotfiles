@@ -1,17 +1,17 @@
 /* noctalia-shell GIMP colorscheme */
 * {
-        --noctalia-bg: #000000;
-        --noctalia-surface: #08060d;
-        --noctalia-overlay: #110d1a;
-        --noctalia-muted: #1a1428;
-        --noctalia-text: #C6D0F5;
-        --noctalia-secondary: #BABBF1;
-        --noctalia-primary: ##8CAAEE;
-        --noctalia-on-primary: #000000;
-        --noctalia-danger: #E78284;
-        --noctalia-border: #2a1f3d;
-        --noctalia-hover: #1a1528;
-        --noctalia-active: #231b35;
+        --noctalia-bg: #1a1b26;
+        --noctalia-surface: #24283b;
+        --noctalia-overlay: #24283b;
+        --noctalia-muted: #16161e;
+        --noctalia-text: #c0caf5;
+        --noctalia-secondary: #a9b1d6;
+        --noctalia-primary: #7aa2f7;
+        --noctalia-on-primary: #16161e;
+        --noctalia-danger: #f7768e;
+        --noctalia-border: #292e42;
+        --noctalia-hover: #24283b;
+        --noctalia-active: #292e42;
 }
 window {
         background-color: var(--noctalia-bg);
@@ -35,7 +35,7 @@ button:active {
 }
 button:disabled {
         background-color: var(--noctalia-muted);
-        color: #6a5a7f;
+        color: #565f89;
         border-color: var(--noctalia-border);
 }
 entry {
@@ -49,8 +49,8 @@ entry:focus {
         border-color: var(--noctalia-primary);
 }
 entry:disabled {
-        background-color: #0a0a14;
-        color: #6a5a7f;
+        background-color: #16161e;
+        color: #565f89;
         border-color: var(--noctalia-border);
 }
 menubar {
@@ -82,7 +82,7 @@ menu > menuitem:hover {
         color: var(--noctalia-primary);
 }
 menu > menuitem:disabled {
-        color: #6a5a7f;
+        color: #565f89;
 }
 menu > separator {
         background-color: var(--noctalia-border);
@@ -99,7 +99,7 @@ scrollbar slider {
         min-height: 30px;
 }
 scrollbar slider:hover {
-        background-color: #c9a8ff;
+        background-color: #bb9af7;
 }
 scrollbar > trough {
         background-color: var(--noctalia-overlay);
@@ -108,7 +108,7 @@ scrollbar > trough {
 }
 progressbar {
         background-color: var(--noctalia-overlay);
-        color: #000000;
+        color: #16161e;
         border: 1px solid var(--noctalia-border);
         border-radius: 4px;
 }
@@ -139,7 +139,7 @@ scale > trough > slider {
         min-height: 16px;
 }
 scale > trough > slider:hover {
-        background-color: #c9a8ff;
+        background-color: #bb9af7;
 }
 notebook {
         background-color: var(--noctalia-bg);
@@ -147,7 +147,7 @@ notebook {
 }
 notebook > tab {
         background-color: var(--noctalia-overlay);
-        color: #9a8aaf;
+        color: #a9b1d6;
         border: 1px solid var(--noctalia-border);
         border-bottom: none;
         padding: 4px 12px;
@@ -173,7 +173,7 @@ combobox:hover {
 }
 statusbar {
         background-color: var(--noctalia-bg);
-        color: #9a8aaf;
+        color: #a9b1d6;
         border-top: 1px solid var(--noctalia-border);
 }
 toolbar {
