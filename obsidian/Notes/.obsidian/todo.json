@@ -2,7 +2,7 @@
   "sort": "priority",
   "tasks": [
     {
-      "done": false,
+      "done": true,
       "id": 1,
       "priority": "medium",
       "text": "Зделай GOOD Noctalia"

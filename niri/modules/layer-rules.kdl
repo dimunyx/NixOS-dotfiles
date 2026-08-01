@@ -1,5 +1,5 @@
 // NOTE: `Niri` layer rules configuration file
 layer-rule {
-    	match namespace="^mpvpaper*"
+    	match namespace="^noctalia-wallpaper*"
    	place-within-backdrop true
 }
