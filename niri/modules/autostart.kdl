@@ -2,5 +2,4 @@
 spawn-sh-at-startup "wl-paste --type text --watch cliphist store"
 spawn-sh-at-startup "wl-paste --type image --watch cliphist store"
 spawn-sh-at-startup "udiskie --tray"
-spawn-sh-at-startup "noctalia"
 spawn-sh-at-startup "gammastep"
