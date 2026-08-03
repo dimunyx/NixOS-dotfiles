@@ -2,12 +2,8 @@
 
 // Decoration
 window-rule {
-	geometry-corner-radius 16
+	geometry-corner-radius 20
 	clip-to-geometry true
-	background-effect {
-        	blur true
-		xray false
-    	}
 }
 window-rule {
     	match is-active=true
@@ -16,7 +12,7 @@ window-rule {
 
 window-rule {
     	match is-active=false
-    	opacity 0.75
+    	opacity 1.0
 }
 
 // Apps
@@ -30,6 +26,7 @@ window-rule {
 }
 window-rule {
 	match app-id="zen"
+	open-on-workspace "2"
 	open-maximized true
 }
 window-rule {
@@ -38,10 +35,12 @@ window-rule {
 }
 window-rule {
 	match app-id="io.github.elyprismlauncher.ElyPrismLauncher"
+	open-on-workspace "2"
 	open-maximized true
 }
 window-rule {
 	match app-id="Minecraft 1.8.9"
+	open-on-workspace "1"
 	open-fullscreen true
 }
 window-rule {

@@ -1,7 +1,4 @@
 // NOTE: `Niri` blur configuration file
 blur {
-    	passes 1
-    	offset 6
-    	noise 0.012
-    	saturation 1.17
+	off
 }

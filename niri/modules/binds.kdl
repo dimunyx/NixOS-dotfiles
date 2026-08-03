@@ -52,6 +52,18 @@ binds {
 	Mod+Ctrl+Down repeat=true {
 		set-window-height "+1%"
 	}
+	Mod+Ctrl+Shift+Left repeat=false {
+		consume-or-expel-window-left
+	}
+	Mod+Ctrl+Shift+Right repeat=false {
+		consume-or-expel-window-right
+	}
+	Mod+Ctrl+Shift+Alt+Left repeat=false {
+		consume-window-into-column
+	}
+	Mod+Ctrl+Shift+Alt+Right repeat=false {
+		expel-window-from-column
+	}
 	Mod+1 repeat=false {
 		focus-workspace "1"
 	}
@@ -242,12 +254,9 @@ binds {
 		toggle-overview
 	}
 	Print repeat=false {
-		screenshot
+		spawn-sh "noctalia msg screenshot-region"
 	}
 	Mod+Print repeat=false {
-		screenshot-screen
-	}
-	Mod+Shift+Print repeat=false {
-		screenshot-window
+		spawn-sh "noctalia msg screenshot-fullscreen"
 	}
 }

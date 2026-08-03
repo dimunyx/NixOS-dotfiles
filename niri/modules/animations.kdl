@@ -3,6 +3,12 @@ animations {
     	window-movement {
         	spring damping-ratio=1.0 stiffness=2500 epsilon=0.0001
     	}
+	workspace-switch {
+		off
+	}
+	overview-open-close {
+		off
+	}
 	window-open {
     		duration-ms 200
     		curve "linear"
