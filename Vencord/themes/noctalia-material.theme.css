@@ -41,18 +41,18 @@
   --accent-text-color: #16161e;
 
   /* App */
-  --app-bg: #1a1b26;
-  --main-color: #1a1b26;
-  --main-alt: #1a1b26;
-  --server-color: #1a1b26;
-  --status-picker-color: #24283b;
-  --sidebar-panel-color: #24283b;
-  --chat-color: #1a1b26;
-  --tooltip-color: #1a1b26;
+  --app-bg: #000000;
+  --main-color: #000000;
+  --main-alt: #000000;
+  --server-color: #000000;
+  --status-picker-color: #0f1325;
+  --sidebar-panel-color: #0f1325;
+  --chat-color: #000000;
+  --tooltip-color: #000000;
   --tooltip-text-color: #c0caf5;
 
   /* Message */
-  --message-color: #24283b;
+  --message-color: #0f1325;
   --message-color-hover: hsl(
     var(--accent-hue),
     calc(var(--accent-saturation) * var(--saturation-modifier) * var(--saturation-factor)),
@@ -63,20 +63,20 @@
   --main-textarea-color: #7aa2f7;
   --main-textarea-button-color: #16161e;
   --main-textarea-color-alt: #bb9af7;
-  --main-textarea-border: #24283b;
+  --main-textarea-border: #0f1325;
 
   /* Card */
-  --card-color-filled: #24283b;
+  --card-color-filled: #0f1325;
   --card-color-hover: #1e4cae;
   --card-color-active: #1e4cae;
   --card-color-alt: #4f00df;
   --card-color-alt-hover: #bb9af7;
-  --card-border-color: #24283b;
+  --card-border-color: #0f1325;
   --card-header-text-color: #c0caf5;
 
   /* Slider & Switch */
-  --switch-knob-color: #24283b;
-  --switch-slider-color: #1a1b26;
+  --switch-knob-color: #0f1325;
+  --switch-slider-color: #000000;
 
   /* Input */
   --input-text-color: #c0caf5;

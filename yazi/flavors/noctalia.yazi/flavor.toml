@@ -33,8 +33,8 @@ sep_right = { open = "", close = "" }
 
 # Progress
 progress_label = { bold = true }
-progress_normal = { fg = "#7aa2f7", bg = "#1a1b26" }
-progress_error = { fg = "#f7768e", bg = "#1a1b26" }
+progress_normal = { fg = "#7aa2f7", bg = "#000000" }
+progress_error = { fg = "#f7768e", bg = "#000000" }
 
 # Permissions
 perm_type = { fg = "#bb9af7" }
@@ -51,13 +51,13 @@ perm_sep = { fg = "#003dbf" }
 [mode]
 
 normal_main = { bg = "#7aa2f7", fg = "#16161e", bold = true }
-normal_alt  = { bg = "#24283b", fg = "#9aa5ce" }
+normal_alt  = { bg = "#0f1325", fg = "#9aa5ce" }
 
 select_main = { bg = "#bb9af7", fg = "#16161e", bold = true }
-select_alt  = { bg = "#24283b", fg = "#9aa5ce" }
+select_alt  = { bg = "#0f1325", fg = "#9aa5ce" }
 
 unset_main = { bg = "#9ece6a", fg = "#16161e", bold = true }
-unset_alt  = { bg = "#24283b", fg = "#9aa5ce" }
+unset_alt  = { bg = "#0f1325", fg = "#9aa5ce" }
 
 # : ]]]
 
@@ -76,8 +76,8 @@ selected = { reversed = true }
 # : Tabs [[[
 
 [tabs]
-active = { fg = "#1a1b26", bold = true, bg = "#7aa2f7" }
-inactive = { fg = "#bb9af7", bg = "#1a1b26" }
+active = { fg = "#000000", bold = true, bg = "#7aa2f7" }
+inactive = { fg = "#bb9af7", bg = "#000000" }
 sep_inner = { open = "", close = "" }
 
 # : ]]]
@@ -105,7 +105,7 @@ hovered = { fg = "#446e17", underline = true }
 
 [which]
 cols = 3
-mask = { bg = "#1a1b26" }
+mask = { bg = "#000000" }
 cand = { fg = "#7aa2f7" }
 rest = { fg = "#16161e" }
 desc = { fg = "#c0caf5" }
@@ -120,7 +120,7 @@ separator_style = { fg = "#c0caf5" }
 border   = { fg = "#7aa2f7" }
 title    = { fg = "#7aa2f7" }
 tbl_col  = { fg = "#c0caf5" }
-tbl_cell = { fg = "#c0caf5", bg = "#1a1b26" }
+tbl_cell = { fg = "#c0caf5", bg = "#000000" }
 
 # : ]]]
 
