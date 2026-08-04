@@ -46,26 +46,26 @@ body {
   --radius-xxl: 0px !important;
   --radius-round: 0px !important;
 
-  --text-0: #000000;
+  --text-0: #1a1b26;
   --text-1: #c0caf5;
   --text-2: color-mix(in srgb, #c0caf5 90%, transparent);
   --text-3: color-mix(in srgb, #c0caf5 75%, transparent);
   --text-4: color-mix(in srgb, #c0caf5 60%, transparent);
   --text-5: color-mix(in srgb, #c0caf5 45%, transparent);
 
-  --bg-1: #000000;
-  --bg-2: #0f1325;
-  --bg-3: #0f1325;
-  --bg-4: #000000;
+  --bg-1: #1a1b26;
+  --bg-2: #24283b;
+  --bg-3: #24283b;
+  --bg-4: #1a1b26;
 
-  --hover: #0f1325;
-  --active: #0f1325;
-  --message-hover: #0f1325;
+  --hover: #24283b;
+  --active: #24283b;
+  --message-hover: #24283b;
 
   --accent-1: #7aa2f7;
   --accent-2: var(--accent-1);
   --accent-3: #bb9af7;
-  --accent-4: #0f1325;
+  --accent-4: #24283b;
   --accent-5: #9ece6a;
   --accent-6: var(--accent-1);
 

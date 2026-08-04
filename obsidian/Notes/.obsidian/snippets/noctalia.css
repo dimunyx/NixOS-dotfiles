@@ -2,13 +2,13 @@
 
 .theme-dark {
   /* Background layers */
-  --background-primary:         #000000;
-  --background-primary-alt:     #080a18;
-  --background-secondary:       #0f1325;
-  --background-secondary-alt:   #171c32;
+  --background-primary:         #1a1b26;
+  --background-primary-alt:     #1f2130;
+  --background-secondary:       #24283b;
+  --background-secondary-alt:   #2c3148;
   --background-modifier-border: #3d4355;
-  --background-modifier-form-field: #03030d;
-  --background-modifier-form-field-highlighted: #080a18;
+  --background-modifier-form-field: #1c1d2a;
+  --background-modifier-form-field-highlighted: #1f2130;
   --background-modifier-box-shadow: #15161e;
   --background-modifier-success: #7aa2f7;
   --background-modifier-error:  #f7768e;
@@ -29,15 +29,15 @@
   --text-highlight-bg:          #9ece6a;
 
   /* Interactive accent */
-  --interactive-normal:         #0f1325;
-  --interactive-hover:          #171c32;
+  --interactive-normal:         #24283b;
+  --interactive-hover:          #2c3148;
   --interactive-accent:         #7aa2f7;
   --interactive-accent-hover:   #7aa2f7;
   --interactive-accent-rgb:     122,162,247;
   --interactive-success:        #7aa2f7;
 
   /* Scrollbar */
-  --scrollbar-bg:               #000000;
+  --scrollbar-bg:               #1a1b26;
   --scrollbar-thumb-bg:         #3d4355;
   --scrollbar-active-thumb-bg:  #5d6682;
 
@@ -45,20 +45,20 @@
   --tab-text-color:             #9aa5ce;
   --tab-text-color-focused:     #c0caf5;
   --tab-text-color-focused-active: #7aa2f7;
-  --tab-background-active:      #000000;
+  --tab-background-active:      #1a1b26;
   --tab-divider-color:          #3d4355;
 
   /* Navigation */
   --nav-item-color:             #9aa5ce;
   --nav-item-color-hover:       #c0caf5;
   --nav-item-color-active:      #16161e;
-  --nav-item-background-hover:  #171c32;
+  --nav-item-background-hover:  #2c3148;
   --nav-item-background-active: #7aa2f7;
   --nav-collapse-icon-color:    #5d6682;
 
   /* Titlebar */
-  --titlebar-background:        #0f1325;
-  --titlebar-background-focused: #0f1325;
+  --titlebar-background:        #24283b;
+  --titlebar-background-focused: #24283b;
   --titlebar-text-color:        #c0caf5;
   --titlebar-text-color-focused: #c0caf5;
 
@@ -86,7 +86,7 @@
 
   /* Code */
   --code-normal:                #bb9af7;
-  --code-background:            #1d233d;
+  --code-background:            #333954;
   --code-comment:               #5d6682;
 
   /* Blockquotes */
@@ -127,11 +127,11 @@
   --divider-color-hover:        #5d6682;
 
   /* Status bar */
-  --status-bar-background:      #0f1325;
+  --status-bar-background:      #24283b;
   --status-bar-text-color:      #9aa5ce;
 
   /* Modal */
-  --modal-background:           #0f1325;
+  --modal-background:           #24283b;
   --modal-border-color:         #3d4355;
 
   /* Prompt / suggestion */

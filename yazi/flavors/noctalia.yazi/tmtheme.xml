@@ -18,13 +18,13 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#000000</string>
+          <string>#1a1b26</string>
           <key>foreground</key>
           <string>#c0caf5</string>
           <key>caret</key>
           <string>#c0caf5</string>
           <key>lineHighlight</key>
-          <string>#0f1325</string>
+          <string>#24283b</string>
           <key>misspelling</key>
           <string>#f7768e</string>
           <key>accent</key>
