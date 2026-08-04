@@ -4,18 +4,18 @@
     		"type": "kitty",
     		"source": "nixos",
 		"color": {
-			"1": "#7AA2F2",
-			"2": "#7AA2F2",
-			"3": "#7AA2F2",
-			"4": "#7AA2F2",
-			"5": "#7AA2F2",
-			"6": "#7AA2F2"
+			"1": "#37F499",
+			"2": "#37F499",
+			"3": "#37F499",
+			"4": "#37F499",
+			"5": "#37F499",
+			"6": "#37F499"
 		}
   	},
   	"display": {
-    		"separator": " \u001b[38;2;122;162;247m->\u001b[0m ",
+    		"separator": " \u001b[38;2;55;244;153m->\u001b[0m ",
     		"constants": [
-      			"\u001b[38;2;122;162;247m─────────────\u001b[0m"
+      			"\u001b[38;2;55;244;153m─────────────\u001b[0m"
     		],
     		"key": {
       			"type": "icon"
@@ -24,89 +24,89 @@
   	"modules": [
     		{
       			"type": "custom",
-      			"format": "\u001b[38;2;122;162;247m╭\u001b[0m{$1}\u001b[38;2;192;202;245mHardware\u001b[0m{$1}\u001b[38;2;122;162;247m╮\u001b[0m"
+      			"format": "\u001b[38;2;55;244;153m╭\u001b[0m{$1}\u001b[38;2;235;250;250mHardware\u001b[0m{$1}\u001b[38;2;55;244;153m╮\u001b[0m"
     		},
     		{
       			"type": "os",
 			"format": "{3}",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "cpu",
 			"format": "{1} ({3}/{4})",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "gpu",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
 		{
       			"type": "memory",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "disk",
 			"format": "{1} / {2} ({3})",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "kernel",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "custom",
-     			"format": "\u001b[38;2;122;162;247m╰\u001b[0m{$1}\u001b[38;2;122;162;247m────────\u001b[0m{$1}\u001b[38;2;122;162;247m╯\u001b[0m"
+     			"format": "\u001b[38;2;55;244;153m╰\u001b[0m{$1}\u001b[38;2;55;244;153m────────\u001b[0m{$1}\u001b[38;2;55;244;153m╯\u001b[0m"
     		},
     		{
       			"type": "custom",
-      			"format": "\u001b[38;2;122;162;247m╭\u001b[0m{$1}\u001b[38;2;192;202;245mSoftware\u001b[0m{$1}\u001b[38;2;122;162;247m╮\u001b[0m"
+      			"format": "\u001b[38;2;55;244;153m╭\u001b[0m{$1}\u001b[38;2;235;250;250mSoftware\u001b[0m{$1}\u001b[38;2;55;244;153m╮\u001b[0m"
     		},
     		{
       			"type": "wm",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "editor",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "shell",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "terminal",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "font",
 			"format": "{1}",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "cursor",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "icons",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "packages",
-      			"keyColor": "#7AA2F2",
+      			"keyColor": "#37F499",
 			"format": "{nix-system} (nix), {flatpak-system} (flatpak)"
     		},
     		{
       			"type": "uptime",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "command",
 			"text": "echo $((($(date +%s) - $(stat -c %W /)) / 86400)) дней",
-      			"keyColor": "#7AA2F2"
+      			"keyColor": "#37F499"
     		},
     		{
       			"type": "custom",
-      			"format": "\u001b[38;2;122;162;247m╰\u001b[0m{$1}\u001b[38;2;122;162;247m────────\u001b[0m{$1}\u001b[38;2;122;162;247m╯\u001b[0m"
+      			"format": "\u001b[38;2;55;244;153m╰\u001b[0m{$1}\u001b[38;2;55;244;153m────────\u001b[0m{$1}\u001b[38;2;55;244;153m╯\u001b[0m"
     		}
   	]
 }

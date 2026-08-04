@@ -2,7 +2,7 @@
 
 // Decoration
 window-rule {
-	geometry-corner-radius 20
+	geometry-corner-radius 16
 	clip-to-geometry true
 }
 window-rule {
@@ -31,11 +31,6 @@ window-rule {
 }
 window-rule {
 	match app-id="dev.noctalia.Noctalia"
-	open-maximized true
-}
-window-rule {
-	match app-id="io.github.elyprismlauncher.ElyPrismLauncher"
-	open-on-workspace "2"
 	open-maximized true
 }
 window-rule {
@@ -70,4 +65,16 @@ window-rule {
 window-rule {
 	match app-id="obsidian"
 	open-maximized true
+}
+window-rule {
+	match app-id="com.obsproject.Studio"
+	open-maximized true
+}
+window-rule {
+	match app-id="steam_proton"
+	open-maximized true
+}
+window-rule {
+	match app-id="PortProton"
+	open-floating true
 }

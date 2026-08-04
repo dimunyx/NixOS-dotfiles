@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a2100304fb78efaa",
+        "id": "4b5a1ff3a01397c1",
         "type": "tabs",
         "children": [
           {
-            "id": "78383743ef69d95f",
+            "id": "51a88f35a3bba4b1",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для QS TODO"
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -181,7 +181,7 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "78383743ef69d95f",
+  "active": "51a88f35a3bba4b1",
   "lastOpenFiles": [
     "2026-07-31 22.25.14.md",
     "QS TODO.md",

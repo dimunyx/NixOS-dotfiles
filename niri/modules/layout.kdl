@@ -1,6 +1,6 @@
 // `NiriWM` layout configuration file
 layout {
-	gaps 12
+	gaps 8
 	preset-column-widths {
 		proportion 0.45
 		proportion 0.50
@@ -12,7 +12,7 @@ layout {
 	}
 	border {
 		on
-		width 4
+		width 2
 	}
 	shadow {
         	off

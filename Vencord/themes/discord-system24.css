@@ -46,27 +46,27 @@ body {
   --radius-xxl: 0px !important;
   --radius-round: 0px !important;
 
-  --text-0: #1a1b26;
-  --text-1: #c0caf5;
-  --text-2: color-mix(in srgb, #c0caf5 90%, transparent);
-  --text-3: color-mix(in srgb, #c0caf5 75%, transparent);
-  --text-4: color-mix(in srgb, #c0caf5 60%, transparent);
-  --text-5: color-mix(in srgb, #c0caf5 45%, transparent);
+  --text-0: #212337;
+  --text-1: #ebfafa;
+  --text-2: color-mix(in srgb, #ebfafa 90%, transparent);
+  --text-3: color-mix(in srgb, #ebfafa 75%, transparent);
+  --text-4: color-mix(in srgb, #ebfafa 60%, transparent);
+  --text-5: color-mix(in srgb, #ebfafa 45%, transparent);
 
-  --bg-1: #1a1b26;
-  --bg-2: #24283b;
-  --bg-3: #24283b;
-  --bg-4: #1a1b26;
+  --bg-1: #212337;
+  --bg-2: #292e42;
+  --bg-3: #292e42;
+  --bg-4: #212337;
 
-  --hover: #24283b;
-  --active: #24283b;
-  --message-hover: #24283b;
+  --hover: #292e42;
+  --active: #292e42;
+  --message-hover: #292e42;
 
-  --accent-1: #7aa2f7;
+  --accent-1: #37f499;
   --accent-2: var(--accent-1);
-  --accent-3: #bb9af7;
-  --accent-4: #24283b;
-  --accent-5: #9ece6a;
+  --accent-3: #04d1f9;
+  --accent-4: #292e42;
+  --accent-5: #a48cf2;
   --accent-6: var(--accent-1);
 
   --border-light: color-mix(in srgb, var(--accent-1) 10%, transparent);
@@ -80,11 +80,11 @@ body {
   --list-active: var(--accent-1);
   --pill-active: var(--accent-1);
 
-  --online: #7aa2f7;
-  --idle: #9ece6a;
-  --dnd: #f7768e;
-  --streaming: #bb9af7;
-  --offline: #5d6682;
+  --online: #37f499;
+  --idle: #a48cf2;
+  --dnd: #f16c75;
+  --streaming: #04d1f9;
+  --offline: #646d8e;
 }
 
 /* --- GLOBAL RESET --- */
@@ -292,13 +292,13 @@ body {
 
 /* --- CHANNELS LIST --- */
 [class*="link_"] * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 0.65 !important;
 }
 
 [class*="modeUnread_"] [class*="link_"] *,
 [class*="modeUnreadImportant_"] [class*="link_"] * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 1 !important;
 }
 
@@ -308,24 +308,24 @@ body {
 }
 
 [class*="modeSelected_"] [class*="link_"] * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 1 !important;
 }
 
 [class*="modeMuted_"] [class*="link_"] * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 0.30 !important;
 }
 
 /* --- DIRECT MESSAGES --- */
 [class*="privateChannels_"] [class*="channel_"] * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 0.95 !important;
 }
 
 [class*="privateChannels_"] [class*="selected_"] *,
 [class*="privateChannels_"] [class*="channel_"]:hover * {
-  color: #c0caf5 !important;
+  color: #ebfafa !important;
   opacity: 1 !important;
 }
 

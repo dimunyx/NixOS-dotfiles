@@ -236,7 +236,7 @@ binds {
 		spawn-sh "kitty -e nvim ~/.config"
 	}
 	Mod+Ctrl+Shift+N repeat=false {
-		spawn-sh "kitty -e nvim /etc/nixos"
+		spawn-sh "kitty -e nvim $HOME/.config/nixos"
 	}
 	// KB Layout management
 	Alt+Tab repeat=false {
