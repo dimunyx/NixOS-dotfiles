@@ -2,7 +2,7 @@
 
 // Decoration
 window-rule {
-	geometry-corner-radius 16
+	geometry-corner-radius 20
 	clip-to-geometry true
 }
 window-rule {
@@ -77,4 +77,8 @@ window-rule {
 window-rule {
 	match app-id="PortProton"
 	open-floating true
+}
+window-rule {
+	match app-id="io.github.elyprismlauncher.ElyPrismLauncher"
+	open-maximized true
 }
