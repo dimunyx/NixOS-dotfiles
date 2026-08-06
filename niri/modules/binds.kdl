@@ -216,6 +216,9 @@ binds {
 	Mod+O repeat=false {
 		spawn-sh "kitty -e opencode"
 	}
+	Mod+Ctrl+C repeat=false {
+		spawn-sh "kitty -e codex"
+	}
 	Mod+I repeat=false {
 		spawn-sh "nwg-look"
 	}

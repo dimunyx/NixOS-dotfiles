@@ -12,7 +12,7 @@ layout {
 	}
 	border {
 		on
-		width 2
+		width 1
 	}
 	shadow {
         	off
