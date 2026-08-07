@@ -1,112 +1,108 @@
 {
-  	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  	"logo": {
-    		"type": "kitty",
-    		"source": "nixos",
-		"color": {
-			"1": "#37F499",
-			"2": "#37F499",
-			"3": "#37F499",
-			"4": "#37F499",
-			"5": "#37F499",
-			"6": "#37F499"
-		}
-  	},
-  	"display": {
-    		"separator": " \u001b[38;2;55;244;153m->\u001b[0m ",
-    		"constants": [
-      			"\u001b[38;2;55;244;153m─────────────\u001b[0m"
-    		],
-    		"key": {
-      			"type": "icon"
-   		 }
-  	},
-  	"modules": [
-    		{
-      			"type": "custom",
-      			"format": "\u001b[38;2;55;244;153m╭\u001b[0m{$1}\u001b[38;2;235;250;250mHardware\u001b[0m{$1}\u001b[38;2;55;244;153m╮\u001b[0m"
-    		},
-    		{
-      			"type": "os",
-			"format": "{3}",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "cpu",
-			"format": "{1} ({3}/{4})",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "gpu",
-      			"keyColor": "#37F499"
-    		},
-		{
-      			"type": "memory",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "disk",
-			"format": "{1} / {2} ({3})",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "kernel",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "custom",
-     			"format": "\u001b[38;2;55;244;153m╰\u001b[0m{$1}\u001b[38;2;55;244;153m────────\u001b[0m{$1}\u001b[38;2;55;244;153m╯\u001b[0m"
-    		},
-    		{
-      			"type": "custom",
-      			"format": "\u001b[38;2;55;244;153m╭\u001b[0m{$1}\u001b[38;2;235;250;250mSoftware\u001b[0m{$1}\u001b[38;2;55;244;153m╮\u001b[0m"
-    		},
-    		{
-      			"type": "wm",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "editor",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "shell",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "terminal",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "font",
-			"format": "{1}",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "cursor",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "icons",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "packages",
-      			"keyColor": "#37F499",
-			"format": "{nix-system} (nix), {flatpak-system} (flatpak)"
-    		},
-    		{
-      			"type": "uptime",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "command",
-			"text": "echo $((($(date +%s) - $(stat -c %W /)) / 86400)) дней",
-      			"keyColor": "#37F499"
-    		},
-    		{
-      			"type": "custom",
-      			"format": "\u001b[38;2;55;244;153m╰\u001b[0m{$1}\u001b[38;2;55;244;153m────────\u001b[0m{$1}\u001b[38;2;55;244;153m╯\u001b[0m"
-    		}
-  	]
+  "$schema": "https://github.com",
+  "logo": {
+    "type": "kitty",
+    "source": "nixos",
+    "color": {
+      "1": "#63b4fa",
+      "2": "#63befe",
+      "3": "#89b4fa",
+      "4": "#89b4fa",
+      "5": "#89b4fa",
+      "6": "#89b4fa"
+    }
+  },
+  "display": {
+    "separator": " -> ",
+    "constants": [
+      "\u001b[38;2;137;180;250m─────────────\u001b[0m"
+    ],
+    "key": {
+      "type": "icon"
+    },
+    "color": {
+      "keys": "#89b4fa",
+      "separator": "#89b4fa",
+      "title": "#b4befe"
+    },
+    "percent": {
+      "color": {
+        "green": "#cba6f7",
+        "yellow": "#85b1fa",
+        "red": "#f38ba8"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;137;180;250m╭\u001b[0m{$1}\u001b[38;2;205;214;244mHardware\u001b[0m{$1}\u001b[38;2;137;180;250m╮\u001b[0m"
+    },
+    {
+      "type": "os",
+      "format": "{3}"
+    },
+    {
+      "type": "cpu",
+      "format": "{1} ({3}/{4})"
+    },
+    {
+      "type": "gpu"
+    },
+    {
+      "type": "memory"
+    },
+    {
+      "type": "disk",
+      "format": "{1} / {2} ({3})"
+    },
+    {
+      "type": "kernel"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;137;180;250m╰\u001b[0m{$1}\u001b[38;2;137;180;250m────────\u001b[0m{$1}\u001b[38;2;137;180;250m╯\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;137;180;250m╭\u001b[0m{$1}\u001b[38;2;205;214;244mSoftware\u001b[0m{$1}\u001b[38;2;137;180;250m╮\u001b[0m"
+    },
+    {
+      "type": "wm"
+    },
+    {
+      "type": "editor"
+    },
+    {
+      "type": "shell"
+    },
+    {
+      "type": "terminal"
+    },
+    {
+      "type": "font",
+      "format": "{1}"
+    },
+    {
+      "type": "cursor"
+    },
+    {
+      "type": "icons"
+    },
+    {
+      "type": "packages",
+      "format": "{nix-system} (nix), {flatpak-system} (flatpak)"
+    },
+    {
+      "type": "uptime"
+    },
+    {
+      "type": "command",
+      "text": "echo $((($(date +%s) - $(stat -c %W /)) / 86400)) дней"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;137;180;250m╰\u001b[0m{$1}\u001b[38;2;137;180;250m────────\u001b[0m{$1}\u001b[38;2;137;180;250m╯\u001b[0m"
+    }
+  ]
 }

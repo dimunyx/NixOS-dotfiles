@@ -1,2 +1,2 @@
 // NOTE: `Niri` csd configuration file
-prefer-no-csd
+prefer-no-csd true

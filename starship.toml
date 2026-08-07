@@ -6,12 +6,12 @@ $hostname$username$directory$git_branch$cmd_duration
 $env_var"""
 
 [env_var.STARSHIP_SHELL]
-format = '[](bold fg:green)[$env_value](bold bg:green)[](bold fg:green)'
+format = '[](bold fg:blue)[$env_value](bold bg:blue)[](bold fg:blue)'
 disabled = false
 
 [git_branch]
 symbol = "󰘬"
-format = "[](bold fg:green)[$symbol $branch(:$remote_branch)](fg:text bg:green)[](bold fg:green)"
+format = "[](bold fg:blue)[$symbol $branch(:$remote_branch)](fg:text bg:blue)[](bold fg:blue)"
 
 [git_commit]
 commit_hash_length = 4
@@ -25,18 +25,18 @@ diverged = " 😵 "
 untracked = " 🤷 ‍"
 stashed = " 📦 "
 modified = " 📝 "
-staged = '[++\($count\)](green)'
+staged = '[++\($count\)](blue)'
 renamed = " ✍️ "
 deleted = " 🗑 "
 
 [hostname]
 ssh_only = false
-format =  "[](bold fg:green)[$hostname](bg:green bold fg:text)[@](bold bg:green fg:text)"
+format =  "[](bold fg:blue)[$hostname](bg:blue bold fg:text)[@](bold bg:blue fg:text)"
 trim_at = ".companyname.com"
 disabled = false
 
 [username]
-format = "[](bold)[$user](bold fg:text bg:green)[](bold fg:green)"
+format = "[](bold)[$user](bold fg:text bg:blue)[](bold fg:blue)"
 disabled = false
 show_always = true
 
@@ -45,7 +45,7 @@ home_symbol = ""
 read_only = ""
 truncation_length = 2
 truncation_symbol = ".../"
-format = '[](bold fg:green)[$path](bold fg:text bg:green)[](bold fg:green)'
+format = '[](bold fg:blue)[$path](bold fg:text bg:blue)[](bold fg:blue)'
 
 [directory.substitutions]
 "Рабочий стол" = ""
@@ -64,7 +64,7 @@ format = '[](bold fg:green)[$path](bold fg:text bg:green)[](bold fg:green)
 
 [cmd_duration]
 min_time = 0
-format = '[](bold fg:green)[ $duration](bold bg:green fg:text)[](bold fg:green)'
+format = '[](bold fg:blue)[ $duration](bold bg:blue fg:text)[](bold fg:blue)'
 disabled = false
 
 # >>> NOCTALIA STARSHIP PALETTE >>>
@@ -73,40 +73,40 @@ disabled = false
 
 [palettes.noctalia]
 # Standard colors
-blue      = "#9071f4"
-red       = "#f9515d"
-green     = "#37f499"
-yellow    = "#e9f941"
-cyan      = "#04d1f9"
-magenta   = "#f265b5"
-white     = "#ebfafa"
-black     = "#21222c"
+blue      = "#89b4fa"
+red       = "#f38ba8"
+green     = "#a6e3a1"
+yellow    = "#f9e2af"
+cyan      = "#94e2d5"
+magenta   = "#f5c2e7"
+white     = "#bac2de"
+black     = "#45475a"
 
 # Extended palette (Catppuccin-compatible names)
-rosewater = "#f1fc79"
-flamingo  = "#f16c75"
-pink      = "#fd92ce"
-mauve     = "#f265b5"
-maroon    = "#f16c75"
-peach     = "#f1fc79"
-teal      = "#04d1f9"
-sky       = "#66e4fd"
-sapphire  = "#a48cf2"
-lavender  = "#fd92ce"
+rosewater = "#f9e2af"
+flamingo  = "#f38ba8"
+pink      = "#f5c2e7"
+mauve     = "#f5c2e7"
+maroon    = "#f38ba8"
+peach     = "#f9e2af"
+teal      = "#94e2d5"
+sky       = "#94e2d5"
+sapphire  = "#89b4fa"
+lavender  = "#f5c2e7"
 
 # Text shades
-text      = "#ebfafa"
-subtext1  = "#ebfafa"
-subtext0  = "#7081d0"
+text      = "#cdd6f4"
+subtext1  = "#bac2de"
+subtext0  = "#585b70"
 
 # Surface shades
-overlay2  = "#7081d0"
-overlay1  = "#7081d0"
-overlay0  = "#21222c"
-surface2  = "#21222c"
-surface1  = "#21222c"
-surface0  = "#212337"
-base      = "#212337"
-mantle    = "#212337"
-crust     = "#212337"
+overlay2  = "#585b70"
+overlay1  = "#585b70"
+overlay0  = "#45475a"
+surface2  = "#45475a"
+surface1  = "#45475a"
+surface0  = "#1e1e2e"
+base      = "#1e1e2e"
+mantle    = "#1e1e2e"
+crust     = "#1e1e2e"
 # <<< NOCTALIA STARSHIP PALETTE <<<
