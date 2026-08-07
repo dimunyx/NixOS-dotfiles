@@ -2,7 +2,7 @@
 version = 1
 shell = "zsh"
 shell-login = false
-mode = "history"
+mode = "spec"
 debug = false
 expand-alias = true
 auto-execute = false
