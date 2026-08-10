@@ -1,0 +1,4 @@
+// NOTE: `Niri` blur configuration file
+blur {
+	off
+}

@@ -1,0 +1,4 @@
+// `Niri` hotkey-overlay configuration file
+hotkey-overlay {
+	skip-at-startup
+}

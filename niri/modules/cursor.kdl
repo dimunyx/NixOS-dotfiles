@@ -1,0 +1,7 @@
+// NOTE: `Niri` cursor configuration file
+cursor {
+	xcursor-theme "Bibata-Modern-Catppuccin-Mocha-Blue"
+    	xcursor-size 40
+    	hide-when-typing false
+    	hide-after-inactive-ms 5000
+}

@@ -1,0 +1,9 @@
+{
+  "accentColor": "#b58fff",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "noctalia"
+  ]
+}

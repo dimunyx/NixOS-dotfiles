@@ -1,0 +1,102 @@
+// NOTE: `Niri` window rules configuration file
+
+// Decoration
+window-rule {
+	geometry-corner-radius 18
+	clip-to-geometry true
+}
+window-rule {
+    	match is-active=true
+    	opacity 1.0
+}
+
+window-rule {
+    	match is-active=false
+    	opacity 1.0
+}
+
+// Apps
+window-rule {
+	match app-id="org.gnome.Calculator"
+	open-floating true
+}
+window-rule {
+	match app-id="discord"
+	open-maximized true
+}
+window-rule {
+	match app-id="zen"
+	open-on-workspace "2"
+	open-maximized true
+}
+window-rule {
+	match app-id="dev.noctalia.Noctalia"
+	open-maximized true
+}
+window-rule {
+	match app-id="Minecraft 1.8.9"
+	open-on-workspace "1"
+	open-fullscreen true
+}
+window-rule {
+	match app-id="com.ktechpit.whatsie"
+	open-maximized true
+}
+window-rule {
+	match app-id="blender"
+	open-maximized true
+}
+window-rule {
+	match app-id="org.gnome.Boxes"
+	open-maximized true
+}
+window-rule {
+	match app-id="org.telegram.desktop"
+	open-maximized true
+}
+window-rule {
+	match app-id="spotify"
+	open-maximized true
+}
+window-rule {
+	match app-id="org.vinegarhq.Sober"
+	open-fullscreen true
+	open-on-workspace "1"
+}
+window-rule {
+	match app-id="obsidian"
+	open-maximized true
+}
+window-rule {
+	match app-id="com.obsproject.Studio"
+	open-maximized true
+}
+window-rule {
+	match app-id="steam_proton"
+	open-maximized true
+}
+window-rule {
+	match app-id="PortProton"
+	open-floating true
+}
+window-rule {
+	match app-id="io.github.elyprismlauncher.ElyPrismLauncher"
+	open-maximized true
+}
+window-rule {
+	match app-id="Minecraft 1.16.5"
+	open-fullscreen true
+	open-on-workspace "1"
+}
+window-rule {
+	match app-id="steam";
+	open-maximized true
+}
+window-rule {
+	match app-id="code"
+	open-maximized true
+}
+window-rule {
+	match app-id="md.Obsidian"
+	open-maximized true
+}

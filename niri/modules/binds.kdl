@@ -1,0 +1,268 @@
+// NOTE: `NiriWM` binding configuration file
+binds {
+	// Window management
+	Mod+C repeat=false {
+		close-window
+	}
+	Mod+F repeat=false {
+		toggle-window-floating
+	}
+	Mod+Ctrl+F repeat=false {
+		fullscreen-window
+	}
+	Mod+Shift+F repeat=false {
+		maximize-column
+	}
+	Mod+Ctrl+R repeat=false {
+		switch-preset-column-width
+	}
+	Mod+Left repeat=false {
+		focus-column-left
+	}
+	Mod+Right repeat=false {
+		focus-column-right
+	}
+	Mod+Up repeat=false {
+		focus-window-up
+	}
+	Mod+Down repeat=false {
+		focus-window-down
+	}
+	Mod+Shift+Left repeat=true {
+		move-column-left
+	}
+	Mod+Shift+Right repeat=true {
+		move-column-right
+	}
+	Mod+Shift+Up repeat=true {
+		move-window-up
+	}
+	Mod+Shift+Down repeat=true {
+		move-window-down
+	}
+	Mod+Ctrl+Left repeat=true {
+		set-column-width "-1%"
+	}
+	Mod+Ctrl+Right repeat=true {
+		set-column-width "+1%"
+	}
+	Mod+Ctrl+Up repeat=true {
+		set-window-height "-1%"
+	}
+	Mod+Ctrl+Down repeat=true {
+		set-window-height "+1%"
+	}
+	Mod+Ctrl+Shift+Left repeat=false {
+		consume-or-expel-window-left
+	}
+	Mod+Ctrl+Shift+Right repeat=false {
+		consume-or-expel-window-right
+	}
+	Mod+Ctrl+Shift+Alt+Left repeat=false {
+		consume-window-into-column
+	}
+	Mod+Ctrl+Shift+Alt+Right repeat=false {
+		expel-window-from-column
+	}
+	Mod+1 repeat=false {
+		focus-workspace "1"
+	}
+	Mod+2 repeat=false {
+		focus-workspace "2"
+	}
+	Mod+3 repeat=false {
+		focus-workspace "3"
+	}
+	Mod+4 repeat=false {
+		focus-workspace "4"
+	}
+	Mod+5 repeat=false {
+		focus-workspace "5"
+	}
+	Mod+6 repeat=false {
+		focus-workspace "6"
+	}
+	Mod+7 repeat=false {
+		focus-workspace "7"
+	}
+	Mod+8 repeat=false {
+		focus-workspace "8"
+	}
+	Mod+9 repeat=false {
+		focus-workspace "9"
+	}
+	Mod+0 repeat=false {
+		focus-workspace "10"
+	}
+	Mod+Shift+1 repeat=false {
+    		move-window-to-workspace "1"
+	}
+	Mod+Shift+2 repeat=false {
+    		move-window-to-workspace "2"
+	}
+	Mod+Shift+3 repeat=false {
+    		move-window-to-workspace "3"
+	}
+	Mod+Shift+4 repeat=false {
+    		move-window-to-workspace "4"
+	}
+	Mod+Shift+5 repeat=false {
+    		move-window-to-workspace "5"
+	}
+	Mod+Shift+6 repeat=false {
+    		move-window-to-workspace "6"
+	}
+	Mod+Shift+7 repeat=false {
+    		move-window-to-workspace "7"
+	}
+	Mod+Shift+8 repeat=false {
+    		move-window-to-workspace "8"
+	}
+	Mod+Shift+9 repeat=false {
+    		move-window-to-workspace "9"
+	}
+	Mod+Shift+0 repeat=false {
+    		move-window-to-workspace "10"
+	}
+	Ctrl+Alt+Up repeat=false {
+		focus-workspace-up
+	}
+	Ctrl+Alt+Down repeat=false {
+		focus-workspace-down
+	}
+	// Layers + `Noctalia` management
+	Mod+Shift+C repeat=false {
+		spawn-sh "hyprpicker"
+	}
+	Mod+S repeat=false {
+		spawn-sh "noctalia msg panel-toggle control-center"
+	}
+	Mod+Shift+S repeat=false {
+		spawn-sh "noctalia msg settings-toggle"
+	}
+	Mod+Space repeat=false {
+		spawn-sh "noctalia msg panel-toggle launcher"
+	}
+	Mod+V repeat=false {
+		spawn-sh "noctalia msg panel-toggle clipboard"
+	}
+	Mod+Shift+V repeat=false {
+		spawn-sh "noctalia msg clipboard-clear"
+	}
+	Mod+Shift+W repeat=false {
+		spawn-sh "noctalia msg panel-toggle wallpaper"
+	}
+	Mod+Ctrl+W repeat=false {
+		spawn-sh "noctalia msg panel-toggle launcher /win"
+	}
+	Mod+L repeat=false {
+		spawn-sh "noctalia msg session lock"
+	}
+	Mod+Escape repeat=false {
+		spawn-sh "noctalia msg panel-toggle session"
+	}
+	Mod+Shift+N repeat=false {
+		spawn-sh "noctalia msg notification-dnd-toggle"
+	}
+	Mod+Ctrl+Shift+B repeat=false {
+		spawn-sh "noctalia msg bar-hide"
+	}
+	Mod+Ctrl+Shift+Alt+B repeat=false {
+		spawn-sh "noctalia msg bar-show"
+	}
+	XF86AudioMute repeat=false {
+		spawn-sh "noctalia msg volume-mute"
+	}
+	XF86AudioLowerVolume repeat=true {
+		spawn-sh "noctalia msg volume-down"
+	}
+	XF86AudioRaiseVolume repeat=true {
+		spawn-sh "noctalia msg volume-up"
+	}
+	XF86AudioMicMute repeat=false {
+		spawn-sh "noctalia msg mic-mute"
+	}
+	XF86MonBrightnessDown repeat=true {
+		spawn-sh "noctalia msg brightness-down"
+	}
+	XF86MonBrightnessUp repeat=true {
+		spawn-sh "noctalia msg brightness-up"
+	}
+	XF86Calculator repeat=false {
+		spawn-sh "gnome-calculator"
+	}
+	XF86AudioPlay repeat=false {
+		spawn-sh "noctalia msg media toggle"
+	}
+	XF86AudioPause repeat=false {
+		spawn-sh "noctalia msg media toggle"
+	}
+	XF86AudioStop repeat=false {
+		spawn-sh "noctalia msg media pause"
+	}
+	XF86AudioPrev repeat=false {
+		spawn-sh "noctalia msg media previous"
+	}
+	XF86AudioNext repeat=false {
+		spawn-sh "noctalia msg media next"
+	}
+	// App management
+	Mod+Q repeat=false {
+		spawn-sh "kitty"
+	}
+	Mod+E repeat=false {
+		spawn-sh "nautilus"
+	}
+	Mod+O repeat=false {
+		spawn-sh "aopencode"
+	}
+	Mod+Ctrl+C repeat=false {
+		spawn-sh "codex"
+	}
+	Mod+I repeat=false {
+		spawn-sh "nwg-look"
+	}
+	Mod+Z repeat=false {
+		spawn-sh "zen"
+	}
+	Mod+Shift+E repeat=false {
+		spawn-sh "code"
+	}
+	Mod+M repeat=false {
+		spawn-sh "flatpak run io.github.elyprismlauncher.ElyPrismLauncher"
+	}
+	// Configs management
+	Mod+Ctrl+Shift+A repeat=false {
+		spawn-sh "code ~/.config/niri"
+	}
+	Mod+Ctrl+Shift+E repeat=false {
+		spawn-sh "code ~/.config"
+	}
+	Mod+Ctrl+Shift+N repeat=false {
+		spawn-sh "code $HOME/.config/nixos"
+	}
+	// KB Layout management
+	Alt+Tab repeat=false {
+		switch-layout "next"
+	}
+	// Mouse management
+	Mod+WheelScrollUp repeat=true {
+		focus-workspace-up
+	}
+	Mod+WheelScrollDown repeat=false {
+		focus-workspace-down
+	}
+	// Niri specific management
+	Mod+W repeat=false {
+		toggle-overview
+	}
+	Print repeat=false {
+		spawn-sh "noctalia msg screenshot-region"
+	}
+	Mod+Print repeat=false {
+		spawn-sh "noctalia msg screenshot-fullscreen"
+	}
+	Mod+Ctrl+Shift+R repeat=false {
+		spawn "niri msg action load-config-file --path ~/.config/niri/config.kdl"
+	}
+}
