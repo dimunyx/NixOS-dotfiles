@@ -213,14 +213,11 @@ binds {
 	Mod+E repeat=false {
 		spawn-sh "nautilus"
 	}
-	Mod+O repeat=false {
-		spawn-sh "aopencode"
-	}
 	Mod+B repeat=false {
 		spawn-sh "kitty -e btop"
 	}
 	Mod+Ctrl+C repeat=false {
-		spawn-sh "codex"
+		spawn-sh "kitty -e codex"
 	}
 	Mod+I repeat=false {
 		spawn-sh "nwg-look"
