@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4b5a1ff3a01397c1",
+        "id": "2b499ea9cfc26230",
         "type": "tabs",
         "children": [
           {
-            "id": "51a88f35a3bba4b1",
+            "id": "548185c6776ba84c",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -181,7 +181,7 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "51a88f35a3bba4b1",
+  "active": "548185c6776ba84c",
   "lastOpenFiles": [
     "2026-07-31 22.25.14.md",
     "QS TODO.md",

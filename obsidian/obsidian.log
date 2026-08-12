@@ -361,3 +361,11 @@
 2026-08-10 17:01:07 Verifying hash & signature. Size= 8772809
 2026-08-10 17:01:07 Saving file
 2026-08-10 17:01:07 Update complete.
+2026-08-12 16:05:00 Loaded updated app /home/dimunyx/.config/obsidian/obsidian-1.13.6.asar
+2026-08-12 16:05:00 Checking for update using Github
+2026-08-12 16:05:00 Success.
+2026-08-12 16:05:00 Latest version is 1.13.7
+2026-08-12 16:05:00 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/obsidian-1.13.7.asar.gz
+2026-08-12 16:05:01 Verifying hash & signature. Size= 8773048
+2026-08-12 16:05:01 Saving file
+2026-08-12 16:05:01 Update complete.
