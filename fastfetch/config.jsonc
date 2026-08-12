@@ -71,9 +71,6 @@
       "type": "wm"
     },
     {
-      "type": "editor"
-    },
-    {
       "type": "shell"
     },
     {
@@ -82,9 +79,6 @@
     {
       "type": "font",
       "format": "{1}"
-    },
-    {
-      "type": "cursor"
     },
     {
       "type": "icons"
@@ -98,7 +92,7 @@
     },
     {
       "type": "command",
-      "text": "echo $((($(date +%s) - $(stat -c %W /)) / 86400)) дней"
+      "text": "echo $((($(date +%s) - $(stat -c %W /)) / 86400)) days"
     },
     {
       "type": "custom",
