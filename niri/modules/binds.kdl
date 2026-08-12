@@ -124,10 +124,10 @@ binds {
 	Mod+Shift+0 repeat=false {
     		move-window-to-workspace "10"
 	}
-	Ctrl+Alt+Up repeat=false {
+	Ctrl+Alt+Up repeat=true {
 		focus-workspace-up
 	}
-	Ctrl+Alt+Down repeat=false {
+	Ctrl+Alt+Down repeat=true {
 		focus-workspace-down
 	}
 	// Layers + `Noctalia` management
@@ -216,6 +216,9 @@ binds {
 	Mod+O repeat=false {
 		spawn-sh "aopencode"
 	}
+	Mod+B repeat=false {
+		spawn-sh "kitty -e btop"
+	}
 	Mod+Ctrl+C repeat=false {
 		spawn-sh "codex"
 	}
@@ -230,6 +233,9 @@ binds {
 	}
 	Mod+M repeat=false {
 		spawn-sh "flatpak run io.github.elyprismlauncher.ElyPrismLauncher"
+	}
+	Mod+Ctrl+S repeat=false {
+		spawn-sh "spotify"
 	}
 	// Configs management
 	Mod+Ctrl+Shift+A repeat=false {

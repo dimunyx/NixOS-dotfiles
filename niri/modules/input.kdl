@@ -13,7 +13,8 @@ input {
 	}
 	mouse {
 		accel-profile "flat"
-		accel-speed -0.7
+		accel-speed -0.65
 	}
 	focus-follows-mouse
+	mod-key "Super"
 }
