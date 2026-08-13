@@ -216,6 +216,9 @@ binds {
 	Mod+B repeat=false {
 		spawn-sh "kitty -e btop"
 	}
+	Mod+T repeat=false {
+		spawn-sh "Telegram"
+	}
 	Mod+Ctrl+C repeat=false {
 		spawn-sh "kitty -e codex"
 	}
