@@ -234,6 +234,9 @@ binds {
 	Mod+Ctrl+S repeat=false {
 		spawn-sh "spotify"
 	}
+	Mod+Shift+D repeat=false {
+		spawn-sh "discord"
+	}
 	// Configs management
 	Mod+Ctrl+Shift+A repeat=false {
 		spawn-sh "code ~/.config/niri"

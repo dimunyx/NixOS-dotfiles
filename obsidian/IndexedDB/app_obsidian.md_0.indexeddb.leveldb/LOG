@@ -1,3 +1,3 @@
-2026/08/12-19:05:01.331 27735 Reusing MANIFEST /home/dimunyx/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/12-19:05:01.332 27735 Recovering log #13
-2026/08/12-19:05:01.335 27735 Reusing old log /home/dimunyx/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000013.log 
+2026/08/13-11:33:44.883 a125 Reusing MANIFEST /home/dimunyx/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/13-11:33:44.889 a125 Recovering log #13
+2026/08/13-11:33:44.905 a125 Reusing old log /home/dimunyx/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000013.log 
