@@ -1,15 +1,14 @@
 blender/
+vesktop/
 Code/
 nixos/
 dconf/
-discord/
 environment.d/
 fontconfig/
 GIMP/
 gnome-boxes/
 gpu-screen-recorder/
 millennium/
-Vencord/
 inkscape/
 libreoffice/
 libvirt/
