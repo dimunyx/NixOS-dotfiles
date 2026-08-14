@@ -1,5 +1,0 @@
-2026/08/14-21:32:27.089 12ab Creating DB /home/dimunyx/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
-2026/08/14-21:32:27.112 12ab Reusing MANIFEST /home/dimunyx/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2026/08/14-21:34:40.332 12cf Level-0 table #5: started
-2026/08/14-21:34:40.338 12cf Level-0 table #5: 34480 bytes OK
-2026/08/14-21:34:40.343 12cf Delete type=0 #3
