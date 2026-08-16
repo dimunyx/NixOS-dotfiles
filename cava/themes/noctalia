@@ -2,14 +2,14 @@
 foreground = '#89b4fa'
 
 gradient = 1
-gradient_color_1 = '#004fd1'
+gradient_color_1 = '#0751c9'
 gradient_color_2 = '#89b4fa'
 gradient_color_3 = '#cee0fd'
 
 horizontal_gradient = 0
-horizontal_gradient_color_1 = '#004fd1'
+horizontal_gradient_color_1 = '#0751c9'
 horizontal_gradient_color_2 = '#89b4fa'
 horizontal_gradient_color_3 = '#cee0fd'
 horizontal_gradient_color_4 = '#89b4fa'
-horizontal_gradient_color_5 = '#004fd1'
+horizontal_gradient_color_5 = '#0751c9'
 

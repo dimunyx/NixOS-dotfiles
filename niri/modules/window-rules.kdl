@@ -1,5 +1,4 @@
-// NOTE: `Niri` window rules configuration file
-
+// NOTE: `Niri` window rule configuration file
 // Decoration
 window-rule {
 	geometry-corner-radius 18
@@ -9,7 +8,6 @@ window-rule {
     	match is-active=true
     	opacity 1.0
 }
-
 window-rule {
     	match is-active=false
     	opacity 1.0

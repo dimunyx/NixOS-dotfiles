@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b499ea9cfc26230",
+        "id": "d4bee378e9d5ffaf",
         "type": "tabs",
         "children": [
           {
-            "id": "548185c6776ba84c",
+            "id": "99a698bba951ffc0",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ]
@@ -181,13 +181,13 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "548185c6776ba84c",
+  "active": "99a698bba951ffc0",
   "lastOpenFiles": [
+    "a.md",
     "2026-07-31 22.25.14.md",
     "QS TODO.md",
     "C++ путь.md",
     "resources.md",
-    "Без названия.md",
     "assets/preview.mp4",
     "assets",
     "QS TODO.md~",

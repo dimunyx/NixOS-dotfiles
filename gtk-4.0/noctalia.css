@@ -91,12 +91,12 @@
     --sidebar-backdrop-color: @window_bg_color;
     --sidebar-border-color: @window_bg_color;
 
-    --warning-bg-color: #6b02e9;
+    --warning-bg-color: #6d10da;
     --warning-fg-color: #e4d0fb;
     --warning-color: #cba6f7;
 
     --success-color: #b4befe;
-    --success-bg-color: #0123ff;
+    --success-bg-color: #0325fc;
     --success-fg-color: #cdd3fe;
     
     --shade-color: rgba(0, 0, 0, 0.36);

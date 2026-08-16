@@ -254,7 +254,7 @@ binds {
 		spawn-sh "code $HOME/.config/nixos"
 	}
 	// KB Layout management
-	Alt+Tab repeat=false {
+	Alt+Tab repeat=true {
 		switch-layout "next"
 	}
 	// Mouse management

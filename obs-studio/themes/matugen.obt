@@ -10,21 +10,21 @@
 
     /* Primary Accents (Blue mapping) */
     --blue1: #b6d0fc;
-    --blue2: #004fd1;
+    --blue2: #0751c9;
     --blue3: #89b4fa;
     --blue4: #cee0fd;
     --blue5: #1b54b1;
 
     /* Error / Danger (Red mapping) */
     --red1: #E85E75;
-    --red2: #c8043a;
+    --red2: #bb1040;
     --red3: #f38ba8;
-    --red4: #ffd6e1;
+    --red4: #fad1dc;
     --red5: #7D1224;
 
     /* Secondary Accents (Pink mapping -> Secondary) */
     --pink1: #b4befe;
-    --pink2: #0123ff;
+    --pink2: #0325fc;
     --pink3: #b4befe;
     --pink4: #cdd3fe;
     /* ИСПРАВЛЕНО: inverse_secondary -> on_secondary (это темный цвет в темной теме) */
@@ -32,7 +32,7 @@
 
     /* Tertiary Accents (Teal mapping -> Tertiary) */
     --teal1: #d6b9f9;
-    --teal2: #6b02e9;
+    --teal2: #6d10da;
     --teal3: #cba6f7;
     --teal4: #e4d0fb;
     /* ИСПРАВЛЕНО: inverse_tertiary -> on_tertiary */
