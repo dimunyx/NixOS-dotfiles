@@ -98,3 +98,7 @@ window-rule {
 	match app-id="md.Obsidian"
 	open-maximized true
 }
+window-rule {
+	match app-id="viber"
+	open-maximized true
+}
