@@ -240,7 +240,7 @@ binds {
 	Mod+Ctrl+S repeat=false {
 		spawn-sh "spotify"
 	}
-	Mod+Shift+D repeat=false {
+	Mod+D repeat=false {
 		spawn-sh "discordcanary"
 	}
 	// Configs management
