@@ -19,7 +19,7 @@ window-rule {
 	open-floating true
 }
 window-rule {
-	match app-id="vesktop"
+	match app-id="discord"
 	open-maximized true
 }
 window-rule {

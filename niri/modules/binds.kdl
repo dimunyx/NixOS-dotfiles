@@ -208,13 +208,13 @@ binds {
 	}
 	// App management
 	Mod+Q repeat=false {
-		spawn-sh "kitty"
+		spawn-sh "ghostty"
 	}
 	Mod+E repeat=false {
 		spawn-sh "nautilus"
 	}
 	Mod+B repeat=false {
-		spawn-sh "kitty -e btop"
+		spawn-sh "ghostty -e btop"
 	}
 	Mod+T repeat=false {
 		spawn-sh "Telegram"
@@ -223,7 +223,7 @@ binds {
 		spawn-sh "flatpak run org.vinegarhq.Sober"
 	}
 	Mod+Ctrl+C repeat=false {
-		spawn-sh "kitty -e codex"
+		spawn-sh "ghostty -e codex"
 	}
 	Mod+I repeat=false {
 		spawn-sh "nwg-look"
@@ -241,7 +241,7 @@ binds {
 		spawn-sh "spotify"
 	}
 	Mod+Shift+D repeat=false {
-		spawn-sh "vesktop"
+		spawn-sh "discordcanary"
 	}
 	// Configs management
 	Mod+Ctrl+Shift+A repeat=false {
