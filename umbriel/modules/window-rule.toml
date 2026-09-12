@@ -6,8 +6,8 @@ match.is_alone = true
 default_maximize = true
 
 [[window_rule]]
-blur = true
-blur_optimized = true
+blur = false
+blur_optimized = false
 
 [[window_rule]]
 tearing = true
@@ -18,7 +18,7 @@ opacity = 1
 
 [[window_rule]]
 match.is_focused = false
-opacity = 0.75
+opacity = 0.8
 
 # Apps
 [[window_rule]]
