@@ -1,0 +1,101 @@
+# Umbriel `window-rule` config file
+
+# Window
+[[window_rule]]
+match.is_alone = true
+default_maximize = true
+
+[[window_rule]]
+blur = true
+blur_optimized = true
+
+[[window_rule]]
+tearing = true
+
+[[window_rule]]
+match.is_focused = true
+opacity = 1
+
+[[window_rule]]
+match.is_focused = false
+opacity = 0.75
+
+# Apps
+[[window_rule]]
+match.app_id = "org.gnome.Calculator"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "vesktop"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "zen"
+default_workspace = 2
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "dev.noctalia.Noctalia"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "Minecraft 1.8.9"
+default_workspace = 1
+default_fullscreen = true
+
+[[window_rule]]
+match.app_id = "com.ktechpit.whatsie"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "blender"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "org.gnome.Boxes"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "org.telegram.desktop"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "spotify"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "org.vinegarhq.Sober"
+default_fullscreen = true
+
+[[window_rule]]
+match.app_id = "com.obsproject.Studio"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "steam_proton"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "PortProton"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "io.github.elyprismlauncher.ElyPrismLauncher"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "code"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "obsidian"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "viber"
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "dev.noctalia.UmbrielSharePicker"
+default_floating = true
+default_size = [800,500]

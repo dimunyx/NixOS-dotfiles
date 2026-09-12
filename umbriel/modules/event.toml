@@ -1,0 +1,4 @@
+# Umbriel `events` config file
+
+[events]
+lid_close = "noctalia msg session lock"

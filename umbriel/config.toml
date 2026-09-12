@@ -1,0 +1,7 @@
+# Umbriel main config file
+
+[include]
+files = [
+	"modules/default.toml",
+	"noctalia.toml",
+]

@@ -1,0 +1,50 @@
+# Umbriel `animation` config file
+
+[animation]
+enabled = true
+
+[animation.beziers]
+easeInOutQuart = [0.76, 0, 0.24, 1]
+easeInOutExpo = [0.87, 0, 0.13, 1]
+
+[animation.windows_in]
+enabled = true
+duration_ms = 200
+curve = "easeInOutExpo"
+style = "fade"
+
+[animation.windows_out]
+enabled = true
+duration_ms = 200
+curve = "easeInOutExpo"
+
+[animation.windows_move]
+enabled = true
+duration_ms = 150
+curve = "easeInOutExpo"
+
+[animation.workspaces]
+enabled = true
+duration_ms = 200
+curve = "easeInOutExpo"
+
+[animation.overview]
+enabled = true
+duration_ms = 200
+curve = "easeInOutQuart"
+
+[animation.scratchpad]
+enabled = false
+
+[animation.border]
+enabled = false
+
+[animation.dim_unfocused]
+enabled = true
+duration_ms = 150
+curve = "easeInOutExpo"
+
+[animation.layers]
+enabled = true
+duration_ms = 250
+curve = "easeInOutExpo"

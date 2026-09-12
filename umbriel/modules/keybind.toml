@@ -1,0 +1,109 @@
+# Umbriel `keybind` config file
+
+[keybinds]
+# App
+"Mod+Q" = { action = "spawn:kitty", repeat = false }
+"Mod+E" = { action = "spawn:nautilus", repeat = false }
+"Mod+I" = { action = "spawn:nwg-look", repeat = false }
+"Mod+Z" = { action = "spawn:zen", repeat = false }
+"Mod+T" = { action = "spawn:Telegram", repeat = false }
+"Mod+D" = { action = "spawn:vesktop", repeat = false }
+"Mod+R" = { action = "spawn:flatpak run org.vinegarhq.Sober", repeat = false }
+"Mod+M" = { action = "spawn:elyprismlauncher", repeat = false }
+"Mod+Shift+E" = { action = "spawn:code", repeat = false }
+"Mod+Ctrl+S" = { action = "spawn:spotify", repeat = false }
+
+# Config
+"Mod+Ctrl+Shift+A" = { action = "spawn:code ~/.config/umbriel", repeat = false }
+"Mod+Ctrl+Shift+N" = { action = "spawn:code ~/.config/nixos", repeat = false }
+"Mod+Ctrl+Shift+E" = { action = "spawn:code ~/.config", repeat = false } 
+
+# Layer + Noctalia
+"Mod+S" = { action = "spawn:noctalia msg panel-toggle control-center", repeat = false }
+"Mod+Shift+S" = { action = "spawn:noctalia msg settings-toggle", repeat = false }
+"Mod+V" = { action = "spawn:noctalia msg panel-toggle clipboard", repeat = false }
+"Mod+Shift+V" = { action = "spawn:noctalia msg clipboard-clear", repeat = false }
+"Mod+Escape" = { action = "spawn:noctalia msg panel-toggle session", repeat = false }
+"Mod+Space" = { action = "spawn:noctalia msg panel-toggle launcher", repeat = false }
+"Mod+Shift+W" = { action = "spawn:noctalia msg panel-toggle wallpaper", repeat = false }
+"Mod+L" = { action = "spawn:noctalia msg session lock", repeat = false }
+"Mod+Ctrl+Shift+B" = { action = "spawn:noctalia msg bar-toggle", repeat = false }
+"Mod+Ctrl+Shift+D" = { action = "spawn:noctalia msg dock-toggle", repeat = false }
+"XF86AudioMute" = { action = "spawn:noctalia msg volume-mute", repeat = false }
+"XF86AudioLowerVolume" = { action = "spawn:noctalia msg volume-down", repeat = false }
+"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up", repeat = false }
+"XF86AudioMicMute" = { action = "spawn:noctalia msg mic-mute", repeat = false }
+"XF86MonBrightnessDown" = { action = "spawn:noctalia msg brightness-down", repeat = false }
+"XF86MonBrightnessUp" = { action = "spawn:noctalia msg brightness-up", repeat = false }
+"XF86Calculator" = { action = "spawn:gnome-calculator", repeat = false }
+"XF86AudioPlay" = { action = "spawn:noctalia msg media toggle", repeat = false }
+"XF86AudioPause" = { action = "spawn:noctalia msg media toggle", repeat = false }
+"XF86AudioStop" = { action = "spawn:noctalia msg media pause", repeat = false }
+"XF86AudioPrev" = { action = "spawn:noctalia msg media previous", repeat = false }
+"XF86AudioNext" = { action = "spawn:noctalia msg media next", repeat = false }
+"Mod+Shift+C" = { action = "spawn:hyprpicker", repeat = false }
+"Print" = { action = "spawn:noctalia msg screenshot-region", repeat = false }
+"Mod+Print" = { action = "spawn:noctalia msg screenshot-fullscreen", repeat = false }
+"Mod+U" = { action = "spawn:noctalia msg panel-toggle noctalia/umbriel-companion:panel", repeat = false }
+
+# Window
+"Mod+C" = { action = "window-close", repeat = false }
+"Mod+F" = { action = "window-toggle-floating", repeat = false }
+"Mod+Ctrl+R" = { action = "window-cycle-width", repeat = false }
+"Mod+Ctrl+Shift+R" = { action = "window-cycle-height", repeat = false }
+"Mod+Ctrl+F" = { action = "window-toggle-fullscreen", repeat = false }
+"Mod+Shift+F" = { action = "window-toggle-maximize", repeat = false }
+"Mod+Left" = { action = "window-focus-left", repeat = false }
+"Mod+Right" = { action = "window-focus-right", repeat = false }
+"Mod+Up" = { action = "window-focus-up", repeat = false }
+"Mod+Down" = { action = "window-focus-down", repeat = false }
+"Mod+Shift+Left" = { action = "column-move-left", repeat = false }
+"Mod+Shift+Right" = { action = "column-move-right", repeat = false }
+"Mod+Shift+Up" = { action = "window-move-up", repeat = false }
+"Mod+Shift+Down" = { action = "window-move-down", repeat = false }
+"Mod+Ctrl+Left" = { action = "window-modify-width:-0.01", repeat = true }
+"Mod+Ctrl+Right" = { action = "window-modify-width:0.01", repeat = true }
+"Mod+Ctrl+Up" = { action = "window-modify-height:-0.01", repeat = true }
+"Mod+Ctrl+Down" = { action = "window-modify-height:0.01", repeat = true }
+"Mod+Ctrl+Shift+Left" = { action = "window-consume-left", repeat = false }
+"Mod+Ctrl+Shift+Right" = { action = "window-consume-right", repeat = false }
+"Mod+Ctrl+Shift+Alt+Left" = { action = "window-consume-or-expel-left", repeat = false }
+"Mod+Ctrl+Shift+Alt+Right" = { action = "window-consume-or-expel-right", repeat = false }
+"Mod+MouseMiddle" = { action = "layout-scroll-drag", repeat = false }
+
+# Workspace
+"Mod+1" = { action = "workspace-switch:1", repeat = false }
+"Mod+2" = { action = "workspace-switch:2", repeat = false }
+"Mod+3" = { action = "workspace-switch:3", repeat = false }
+"Mod+4" = { action = "workspace-switch:4", repeat = false }
+"Mod+5" = { action = "workspace-switch:5", repeat = false }
+"Mod+6" = { action = "workspace-switch:6", repeat = false }
+"Mod+7" = { action = "workspace-switch:7", repeat = false }
+"Mod+8" = { action = "workspace-switch:8", repeat = false }
+"Mod+9" = { action = "workspace-switch:9", repeat = false }
+"Mod+0" = { action = "workspace-switch:10", repeat = false }
+"Mod+Shift+1" = { action = "window-move-to-workspace:1", repeat = false }
+"Mod+Shift+2" = { action = "window-move-to-workspace:2", repeat = false }
+"Mod+Shift+3" = { action = "window-move-to-workspace:3", repeat = false }
+"Mod+Shift+4" = { action = "window-move-to-workspace:4", repeat = false }
+"Mod+Shift+5" = { action = "window-move-to-workspace:5", repeat = false }
+"Mod+Shift+6" = { action = "window-move-to-workspace:6", repeat = false }
+"Mod+Shift+7" = { action = "window-move-to-workspace:7", repeat = false }
+"Mod+Shift+8" = { action = "window-move-to-workspace:8", repeat = false }
+"Mod+Shift+9" = { action = "window-move-to-workspace:9", repeat = false }
+"Mod+Shift+0" = { action = "window-move-to-workspace:10", repeat = false }
+"Mod+WheelUp" = { action = "workspace-previous", repeat = true }
+"Mod+WheelDown" = { action = "workspace-next", repeat = true }
+"Ctrl+Alt+Up" = { action = "workspace-previous", repeat = false }
+"Ctrl+Alt+Down" = { action = "workspace-next", repeat = false }
+
+# Keyboard
+"Alt+Tab" = { action = "keyboard-layout-next", repeat = false }
+
+# Overview
+"Mod+W" = { action = "overview-toggle", repeat = false }
+
+[hot_corners.top_left]
+enabled = true
+delay_ms = 0
+action = "overview-toggle"

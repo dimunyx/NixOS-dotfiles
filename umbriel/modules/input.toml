@@ -1,0 +1,43 @@
+# Umbriel `input` config file
+
+[input]
+middle_click_paste = false
+
+[input.keyboard]
+layout = "us,ru"
+options = "caps:none"
+repeat_rate = 25
+repeat_delay = 500
+numlock_toggle = false
+track_layout = "global"
+
+[input.touchpad]
+tap = true
+natural_scroll = true
+accel_profile = "flat"
+scroll_factor = 1
+sensitivity = 1
+disable_while_typing = false
+
+[input.mouse]
+natural_scroll = false
+accel_profile = "flat"
+sensitivity = 0
+scroll_wheel_step = 60
+
+[[input.device]]
+name = "INSTANT USB GAMING MOUSE "
+accel_profile = "flat"
+sensitivity = -0.65
+
+[input.cursor]
+theme = "Bibata-Modern-Catppuccin-Mocha-Blue"
+size = 36
+hardware_cursor = false
+follows_focus = false
+hide_when_typing = false
+hide_timeout_ms = 5000
+
+[input.focus]
+follows_mouse = true
+follows_mouse_max_scroll = 0.5

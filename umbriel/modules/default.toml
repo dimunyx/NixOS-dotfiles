@@ -1,0 +1,18 @@
+# Umbriel import file
+
+[include]
+files = [
+	"event.toml",
+	"input.toml",
+	"output.toml",
+	"layout.toml",
+	"general.toml",
+	"keybind.toml",
+	"overview.toml",
+	"animation.toml",
+	"workspace.toml",
+	"appearance.toml",
+	"layer-rule.toml",
+	"window-rule.toml",
+	"environment.toml"
+]

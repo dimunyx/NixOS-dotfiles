@@ -1,0 +1,13 @@
+# Umbriel `environment` config file
+
+[environment]
+QT_QPA_PLATFORM = "wayland"
+GDK_BACKEND = "wayland"
+QT_QPA_PLATFORMTHEME = "qt6ct"
+ELECTRON_OZONE_PLATFORM_HINT = "wayland"
+SDL_VIDEODRIVER = "wayland"
+QT_AUTO_SCREEN_SCALE_FACTOR = "1"
+CURSOR_THEME = "Bibata-Modern-Catppuccin-Mocha-Blue"
+CURSOR_SIZE = "36"
+XCURSOR_THEME = "Bibata-Modern-Catppuccin-Mocha-Blue"
+XCURSOR_SIZE = "36"
