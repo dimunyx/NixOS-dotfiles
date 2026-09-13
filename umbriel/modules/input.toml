@@ -28,7 +28,7 @@ scroll_wheel_step = 60
 [[input.device]]
 name = "INSTANT USB GAMING MOUSE "
 accel_profile = "flat"
-sensitivity = -0.65
+sensitivity = -0.7
 
 [input.cursor]
 theme = "Bibata-Modern-Catppuccin-Mocha-Blue"

@@ -1,0 +1,329 @@
+ls
+pwd
+sys
+> sys
+lsblk
+pwd
+clear
+nano .
+nvim .
+clear
+ps
+clear
+ls
+open ~/.config/umbriel/appearance.toml
+open ~/.config/umbriel/window-rule.toml
+open ~/.config/umbriel/modules/window-rule.toml
+open ~/.config/umbriel/modules/window-rule.toml<\n>| get window_rule<\n>| get match.app_id
+clear
+open ~/.config/umbriel/modules/window-rule.toml<\n>| get window_rule<\n>| get match?.app_id
+clear
+pwd
+ls
+clear
+sync
+sys
+sys disks
+das
+clear
+which starship
+mkdir ($nu.data-dir | path join "vendor/autoload")<\n>starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+lsblk
+pwd
+ls
+$nu.config-path
+clear
+pwd
+ls
+echo $SHELL
+config nu
+fastfetch 
+nvim $nu.config-path
+nvim ~/fish-to-nu.nu
+nu ~/fish-to-nu.nu ~/.local/share/fish/fish_history
+codex
+nvim .config/nushell/config.nu
+python --version
+c;ear
+cd /etc/nixos
+nvim modules/programs/default.nix
+cd programs/
+sudo nvim default.nix
+sudo -i
+cp -r /etc/nixos ~/.config/nixos
+ls .config
+reboot
+start-umbriel
+ls -l nixos
+nvim kitty/kitty.conf
+factor
+cd nixos/modules/environment/pac
+cd nixos/modules/environment/
+nvim packages.nix
+git
+cd
+cd .config/umr
+mkdir umbriel
+l
+git clone https://github.com/dimunyx/Arch-dotfiles.git
+git clone https://github.com/dimunyx/Arch_dotfiles.git
+git clone https://github.com/dimunyx/Archdotfiles.git
+git clone 'https://github.com/dimunyx/Arch dotfiles.git'
+touch config.toml
+nvim config.toml
+mkdir modules
+nvim default.toml
+cd .config/umbriel/
+nvim environment.toml
+nvim events.toml
+nvim ge
+nvim general.toml
+nvim monitor.toml
+umbriel output
+umbriel outputs
+ls modules
+mv modules/events.toml modules/event.toml
+cd modules/
+mv monitor.toml output.toml
+nvim event.toml
+nwg-look
+nvim .config/nixos/modules/environment/packages.nix
+nvim hot_corner.toml
+nvim ke
+nvim input.toml
+while true;<\n>echo "HI"<\n>end
+libinput
+nix shell nixpkgs#libinput
+libinput list-devices
+sudo libinput list-devices
+git clone https://github.com/dimunyx/Bibata-Modern-Catpuccin-Mocha-Blue.git
+git clone https://github.com/dimunyx/Bibata-Modern-Catppuccin-Mocha-Blue.git
+nvim keybind.toml
+nvim appearance.toml
+nvim animation.toml
+nvim layout.toml
+nvim workspace.toml
+nvim overview.toml
+nvim window-rule.toml
+cat /run/current-system/sw/share/applications/nvim.desktop
+nvim nvim.desktop
+nvim power-profiles-daemon.nix
+nvim upower.nix
+nh os switch .config/nixos#nixosik
+echo $NH_FLAKE
+pkill umbriel
+nvim noctalia.nix
+nvim .config/umbriel/modules/general.toml
+nix shell nixpkgs#chromium
+chromium
+touch noctalia-greeter.nix
+sudo mkdir /mnt
+sudo mount /dev/sda /mnt
+sudo umount -R /mnt
+nix flake update
+cat /home/dimunyx/.config/nixos/modules/environment/packages.nix
+noctalia msg panel-toggle control-center
+nvim .config/umbriel/modules/input.toml
+touch default.nix font-config.nix
+wofi
+fas
+git clone https://github.com/vimlinuz/wall-archive.git
+udiskie
+touch udisks2.nix
+udiskie --tray
+nvim default.nix
+touch gpu-screen-recorder.nix
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+nvim .config/umbriel/modules/keybind.toml
+noctalia msg panel-toggle test
+noctalia msg panel-toggle noctalia/umbriel-companion:panel
+nvim .config/umbriel/modules/layout.toml
+umbriel validate
+fasf
+touch vscode.nix
+nvim .config/umbriel/modules/window-rule.toml
+touch default.nix nixpkgs-config.nix
+pkill vscode
+touch default.nix doas.nix sudo.nix
+exit
+git clone https://github.com/dimunyx/dimunyx-nvim.git
+pkill vesktop
+doas rm -rf /home/dimunyx/.config/vesktop
+pkill noctalia && noctalia -d
+touch config
+cava
+starship source
+starship init
+starship
+source
+code .config/starship.tom
+mv starship.tom starship.toml
+nvim .config/starship.toml
+rm -rf .config/wall-archive/
+ln -sf /home/dimunyx/.config/telegram-desktop/themes /home/dimunyx/.local/share/TelegramDesktop/themes
+flatpak install whatsie
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.ktechpit.whatsie
+flatpak install flathub com.github.tchx84.Flatseal
+pkill noctalia
+noctalia -d
+ls .icons
+python
+mkdir dev
+nvim .config/fish/config.fish
+git clone https://github.com/catppuccin/grub.git
+mkdir Документы/Записи
+elyprismlauncher --version
+unimatrix
+git -C ~/.config/nixos status
+~/.config/nixos/
+matrix
+git -C ./grub add .
+git -C ./grub status
+cpufetch
+gpu-screen-recorder -w screen -o '/home/dimunyx/Видео/Выходные видео/output.mp4' -c mp4 -f 60 -k h264 -q ultra -a default_output;
+start-vid
+cd grub
+touch default.nix
+tree
+noctalia completions fish
+cd .config/fish
+cd co
+cd completions/
+nvim noctalia.fish
+noctalia msg panel-toggle a
+noctalia msg panel-toggle mindnbytes/nix-status:detail
+noctalia msg panel-toggle mindnbytes/nix-status
+ssh-keygen -t ed25519 -C "botnarudumitru10@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+cat ~/.ssh/id_ed25519.pub | wl-copy
+echo -n '0480bb82ecc7159980d3e72279f1f39c6cdce588e226cc7917c9cb88861a2dd5' | ssh-keygen -Y sign -n codeberg.org -f ~/.ssh/id_ed25519
+bash
+bash -c "echo -n '0480bb82ecc7159980d3e72279f1f39c6cdce588e226cc7917c9cb88861a2dd5' | ssh-keygen -Y sign -n codeberg.org -f <(echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGgssbippjINg5Ce2GQmdRoP+D5UZFxkLVaZxSWPVhYq')"
+ssh -T git@codeberg.org
+nvim
+umbriel --version
+flatpak install flathub sober
+flatpak override --user --filesystem=xdg-run/app/com.discordapp.Discord:create --filesystem=xdg-run/discord-ipc-0 org.vinegarhq.Sober
+vesktop
+nh os switch --update
+fish --version
+nvim .config/fastfetch/config.jsonc
+fastfetc
+code .config/fastfetch/config.jsonc
+fastfetch --config all
+af
+f
+pkill hyprpicker
+git clone git@github.com:dimunyx/dimunyx.github.io.git
+code .
+nautilus .
+git config --global user.email "botnarudumitru10@gmail.com"<\n>git config --global user.name "dimunyx"
+git commit -m "Updated info"
+rm -rf grub
+git clone https://github.com/noctalia-dev/umbriel.git
+cd umbriel/
+nix develop
+nh clean all
+nh clean all --optimise
+ls /boot/kernels
+git branch -M main
+ls autostart/
+rm -rf autostart/
+git commit -m "Updated some files"
+git remote add origin git@github.com:dimunyx/NixOS-dotfiles.git
+git push -u origin main
+git push -u origin main --force
+cd nixos
+git init
+git branch -m main
+git remote add origin git@github.com:dimunyx/NixOS-configuration.git
+git rm -rf --cached .
+cd modules/users/
+cd ..
+..
+git add . -v
+git commit -M "Switched to Umbriel"
+git push --force
+git push --force -u origin main
+nixos-status
+ln -sf /home/dimunyx/.local/share/PrismLauncher/themes/Matugen /home/dimunyx/.local/share/ElyPrismLauncher/themes/
+nixos-add
+nixos-dir
+git statis
+git commit -m "Switched to Umbriel"
+cd .config
+nvim .gitignore
+git status
+git add .
+git commit -m "Umbriel features"
+git push
+doas wipefs -af /dev/sda
+doas dd if='/home/dimunyx/Загрузки/archlinux-2026.09.01-x86_64.iso' of=/dev/sda bs=5M status=progress oflag=sync
+doas sync
+flatpak remove org.vinegarhq.Sober
+flatpak install flathub space.bigrat.mocktail
+umbriel windows
+cd .var/app
+rm -rf org.vinegarhq.Sober/
+flatpak install org.vinegarhq.Sober
+flatpak remove space.bigrat.mocktail
+flatpak
+opencode
+flatpak install flathub io.missioncenter.MissionCenter
+btop
+flatpak remove io.missioncenter.MissionCenter
+flatpak install flathub com.microsoft.Edge
+xdg-mime default nautilus.desktop inode/directory application/x-gnome-saved-search
+xdg-mime default nautilus.desktop inode/directory
+flatpak list
+flatpak remove com.microsoft.Edge
+pkill nautilus
+rmdir /
+ls -l /bin/sh
+ls /bin
+doas rm -rf /bin/sh
+doas rm -rf /bin
+doas rm -rf /usr
+doas rm -rf /root
+echo $USER
+rm /bin
+rm -rf /bin
+ls -l /bin
+su
+nh os switch
+doas mkdir /mnt
+cd /boot
+Rust
+de
+edev
+dev
+cd dimunyx.github.io/
+lks
+nix shell nixpkgs#nushell
+nu
+echo $VISUAL
+opencode .
+btop
+cleardev
+code .
+nixos-status
+start-vid
+start-video
+fastfetch --config all
+fastfetch
+noctalia completions a
+noctalia completions a nu
+noctalia completions nu
+noctalia completions nushell
+clear
+lsblk
+pwd
+ls
+clear
+rm -rf fish
+git status
+cd .config
+rm -rf fish
+git status
