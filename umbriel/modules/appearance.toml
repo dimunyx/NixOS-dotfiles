@@ -4,7 +4,7 @@
 prefer_no_csd = true
 border_width = 2
 outer_border_width = 0
-corner_radius = 20
+corner_radius = 16
 drag_opacity = 0.8
 
 [appearance.blur]

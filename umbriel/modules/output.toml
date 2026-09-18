@@ -9,3 +9,4 @@ tearing = true
 direct_scanout = false
 workspaces = 10
 hdr = "off"
+workspace_axis = "vertical"

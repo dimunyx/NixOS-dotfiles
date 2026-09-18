@@ -2,6 +2,10 @@
 
 [include]
 files = [
-	"modules/default.toml",
-	"noctalia.toml",
+  "modules/default.toml",
+]
+
+[include.optional]
+files = [
+  "noctalia.toml",
 ]

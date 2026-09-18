@@ -2,7 +2,6 @@
 
 [general]
 autostart = [
-	"noctalia",
 	"udiskie --tray"
 ]
 xwayland = true

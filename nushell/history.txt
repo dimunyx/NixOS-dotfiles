@@ -327,3 +327,380 @@ git status
 cd .config
 rm -rf fish
 git status
+git add .
+git commit -m "Changed shell to `nushell`"
+git push
+clear
+cd nixos
+git status
+nh os switch
+nixos-add
+nh os switch
+clear
+ls /nix/var/nix/profiles
+ls
+pwd
+clear
+echo $SHELL
+echo $env
+echo $env.SHELL
+clear
+noctalia msg panel-toggle a
+noctalia msg panel-toggle tray-drawer
+clear
+pwd
+lsls
+ls -l
+ls -la
+clear
+cd .config/umbriel
+open
+open config.toml
+cd modules
+clear
+open default.toml
+ls
+dev
+git clone git@github.com:dimunyx/dimunyx-nvim.git
+cd dimunyx-nvim/
+cp -r ~/.config/nvim .
+ls
+rm -rf init.lua lua
+mv nvim/init.lua .
+mv nvim/lua/ .
+ls
+rm -rf nvim
+ls
+git status
+git add .
+git commit -m "Changed some files"
+git push
+cd ..
+rm -rf dimunyx-nvim/
+clear
+ls
+clear
+git clone git@github.com:dimunyx/dimunyx-nvim.git
+cd dimunyx-nvim/
+ls
+nvim README.md
+git add .
+git commit -m "Changed some files"
+git push
+clear
+cd ..
+clear
+cd -
+ls preview
+ls
+ls assets/
+ls assets/preview.png
+nh os switch --update
+nh os switch
+nh os switch --update
+nh os switch
+ls /boot/kernels
+nixos-dir
+nvim modules/boot/kernel.nix
+nh os switch --update
+readlink /nix/var/nix/profiles/system
+fastfetch
+ls /boot/kernels
+nh os switch
+nh clean all
+clear
+ls /boot/kernels
+gcc
+mkdir C++
+cd C++/
+clear
+nvim flake.nix
+code .
+nix develop
+clear
+ls
+just clean
+just build
+just clean
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just clean
+clear
+just build
+clear
+just build
+just clena
+jsut build
+clear
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run]
+just run
+just build
+just run
+just build
+clear
+just run
+clear
+just build
+just run
+just build
+just run
+just build
+ce;ar
+clear
+just build
+clear
+just build
+clear
+just build
+just run
+just build
+clear
+just build
+clear
+just build/
+just run
+just build/
+clear
+just build
+clear
+just build
+just run
+clear
+just clean
+fastfetch
+clear
+date
+time
+now
+date now
+ls /nix/var/nix/profiles
+nh clean all --optimise
+fastfetch
+pkill nautilus
+code .
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+clear
+just build
+clear
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+1
+2
+1
+just run
+nix develop
+ls
+cd C++
+ls
+C++
+C++/
+ls
+nvim src/main.cpp
+nix develop
+cat /proc/cpuinfo
+cat /proc/cpuinfo | wl-copy
+cd /home/dimunyx/Загрузки
+ls
+./hello-world-machine-code
+nvim hello-world-machine-code
+chmod +x hello-world-machine-code
+./hello-world-machine-code
+rm hello-world-machine-code
+file hello-world-machine-code
+objdump -d hello-world-machine-code
+flatpak update
+uname -r
+uname -a
+uname -r
+uname
+cd C++
+nix develop
+nvim flake.nix
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+jsut run
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+just build
+just run
+nix develop
+cd C++
+nix develop
+clear
+just clean
+clear
+just build
+just run
+just build
+just run
+just clean
+clear
+nh os switch --update
+umbriel validate
+clear
+umbriel validate
+nh clean all --optimise
+which pkexec
+systemctl restart pipewire
+which pkexec
+systemctl status polkit
+which noctalia-greeter-apply-appearance
+noctalia-greeter-apply-appearance
+ls -la /var/lib/noctalia-greeter
+doas ls -la /var/lib/noctalia-greeter
+journalctl -b -n 100 | grep -i noctalia
+journalctl -b -n 100 | grep -i greeter
+ls -l /run/current-system/sw/bin/pkexec
+ls -l /run/current-system/sw/bin/pkexec | wl-copy
+ls -lL /run/current-system/sw/bin/pkexec | wl-copy 
+ls -l /run/current-system/sw/bin/pkexec | wl-copy 
+stat /run/wrappers/bin/pkexec
+/run/wrappers/bin/pkexec --version
+bash
+clear
+ls -la /run/wrappers/bin | grep pk
+nixos-option security.polkit.enable
+nixos-dir
+ls
+nixos-dir
+nix flake update umbriel
+nix flake update noctalia
+nix flake update noctalia-greeter
+nvim flake.lock
+nix flake update xdg-dekstop-portal-umbriel
+nix flake update xdg-desktop-portal-umbriel
+clear
+nvim flake.nix
+nh os switch
+noctalia-greeter-apply-appearance
+noctalia-greeter-apply-appearance --setup-system
+ls /var/lib/noctalia-greeter/
+doas ls /var/lib/noctalia-greeter/
+cd /var/lib/noctalia-greeter
+doas cd /var/lib/noctalia-greeter
+cd
+cd /var/lib/noctalia-greeter
+doas cd /var/lib/noctalia-greeter
+z
+clear
+ls
+ls /var/lib/noctalia-greeter/
+doas ls /var/lib/noctalia-greeter/
+cp /var/lib/noctalia-greeter/wallpaper.jpg .
+doas cp /var/lib/noctalia-greeter/wallpaper.jpg .
+noctalia-greeter-apply-appearance --setup-system
+noctalia-greeter-apply-appearance
+opencode
+codex
+nh os switch
+command -v noctalia-greeter-apply-appearance<\n>  readlink -f "$(command -v noctalia-greeter-apply-appearance)"
+nixos-option security.polkit.enablePkexecWrapper
+nh os switch
+nixos-add
+nh os switch
+codex
+nh os switch
+nixos-add
+nh os switch
+grep nu /etc/shells
+codex
+fastfetch
+nu --version
+numfmt 
+clear
+umbriel windows
+fastfetch
+nixos-dir
+git status
+nixos-dir
+git status
+git add .
+git commit -m "Switched to nushell and some bugfixes in code :)"
+nh os switch
+git push
+cd ~/.config
+git status
