@@ -23,6 +23,7 @@
 "Mod+Ctrl+Shift+Alt+Escape" = { action = "session-quit", repeat = false }
 
 # Layer + Noctalia
+"Mod+Tab" = { action = "spawn:noctalia msg window-switcher", repeat = false }
 "Mod+S" = { action = "spawn:noctalia msg panel-toggle control-center", repeat = false }
 "Mod+Shift+S" = { action = "spawn:noctalia msg settings-toggle", repeat = false }
 "Mod+V" = { action = "spawn:noctalia msg panel-toggle clipboard", repeat = false }
@@ -34,11 +35,11 @@
 "Mod+Ctrl+Shift+B" = { action = "spawn:noctalia msg bar-toggle", repeat = false }
 "Mod+Ctrl+Shift+D" = { action = "spawn:noctalia msg dock-toggle", repeat = false }
 "XF86AudioMute" = { action = "spawn:noctalia msg volume-mute", repeat = false }
-"XF86AudioLowerVolume" = { action = "spawn:noctalia msg volume-down", repeat = false }
-"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up", repeat = false }
+"XF86AudioLowerVolume" = { action = "spawn:noctalia msg volume-down", repeat = true }
+"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up", repeat = true }
 "XF86AudioMicMute" = { action = "spawn:noctalia msg mic-mute", repeat = false }
-"XF86MonBrightnessDown" = { action = "spawn:noctalia msg brightness-down", repeat = false }
-"XF86MonBrightnessUp" = { action = "spawn:noctalia msg brightness-up", repeat = false }
+"XF86MonBrightnessDown" = { action = "spawn:noctalia msg brightness-down", repeat = true }
+"XF86MonBrightnessUp" = { action = "spawn:noctalia msg brightness-up", repeat = true }
 "XF86Calculator" = { action = "spawn:gnome-calculator", repeat = false }
 "XF86AudioPlay" = { action = "spawn:noctalia msg media toggle", repeat = false }
 "XF86AudioPause" = { action = "spawn:noctalia msg media toggle", repeat = false }
@@ -49,6 +50,8 @@
 "Print" = { action = "spawn:noctalia msg screenshot-region", repeat = false }
 "Mod+Print" = { action = "spawn:noctalia msg screenshot-fullscreen", repeat = false }
 "Mod+U" = { action = "spawn:noctalia msg panel-toggle noctalia/umbriel-companion:panel", repeat = false }
+"Mod+Ctrl+Shift+S" = { action = "spawn:noctalia msg panel-toggle nilsonlinux/speedtest-meter:speedtest", repeat = false }
+"Mod+Ctrl+Shift+W" = { action = "spawn:noctalia msg desktop-widgets-toggle-edit", repeat = false }
 
 # Window
 "Mod+C" = { action = "window-close", repeat = false }

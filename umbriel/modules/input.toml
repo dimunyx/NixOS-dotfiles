@@ -2,6 +2,8 @@
 
 [input]
 middle_click_paste = false
+client_window_drag = false
+window_drag_toggle = "none"
 
 [input.keyboard]
 layout = "us,ru"
@@ -18,6 +20,7 @@ accel_profile = "flat"
 scroll_factor = 1
 sensitivity = 1
 disable_while_typing = false
+left_handed = false
 
 [input.mouse]
 natural_scroll = false

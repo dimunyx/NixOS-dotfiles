@@ -18,7 +18,7 @@ opacity = 1
 
 [[window_rule]]
 match.is_focused = false
-opacity = 0.8
+opacity = 0.95
 
 # Apps
 [[window_rule]]
@@ -60,7 +60,7 @@ match.app_id = "org.telegram.desktop"
 default_maximize = true
 
 [[window_rule]]
-match.app_id = "spotify"
+match.app_id = "Spotify"
 default_maximize = true
 
 [[window_rule]]

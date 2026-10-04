@@ -2,7 +2,7 @@
 
 [include]
 files = [
-  "modules/default.toml",
+  "modules/default.toml"
 ]
 
 [include.optional]

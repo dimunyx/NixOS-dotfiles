@@ -11,6 +11,7 @@ files = [
 	"overview.toml",
 	"animation.toml",
 	"workspace.toml",
+  "screencast.toml",
 	"appearance.toml",
 	"layer-rule.toml",
 	"window-rule.toml",

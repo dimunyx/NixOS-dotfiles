@@ -23,6 +23,9 @@ enabled = true
 duration_ms = 150
 curve = "easeInOutExpo"
 
+[animation.windows_drag]
+physics = false
+
 [animation.workspaces]
 enabled = true
 duration_ms = 200
@@ -34,10 +37,10 @@ duration_ms = 200
 curve = "easeInOutQuart"
 
 [animation.scratchpad]
-enabled = false
+enabled = true
 
 [animation.border]
-enabled = false
+enabled = true
 
 [animation.dim_unfocused]
 enabled = true
