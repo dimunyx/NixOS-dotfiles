@@ -1,5 +1,3 @@
-# Umbriel `layer-rule` config file
-
 [[layer_rule]]
 match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
 blur = false

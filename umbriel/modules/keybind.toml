@@ -1,6 +1,5 @@
-# Umbriel `keybind` config file
-
 [keybinds]
+
 # App
 "Mod+Q" = { action = "spawn:kitty", repeat = false }
 "Mod+E" = { action = "spawn:nautilus", repeat = false }
@@ -10,6 +9,7 @@
 "Mod+D" = { action = "spawn:vesktop", repeat = false }
 "Mod+R" = { action = "spawn:flatpak run org.vinegarhq.Sober", repeat = false }
 "Mod+M" = { action = "spawn:elyprismlauncher", repeat = false }
+"Mod+O" = { action = "spawn:obsidian", repeat = false }
 "Mod+Shift+E" = { action = "spawn:code", repeat = false }
 "Mod+Ctrl+S" = { action = "spawn:spotify", repeat = false }
 
@@ -20,6 +20,8 @@
 
 # Umbriel shortcuts
 "Mod+Ctrl+Shift+Alt+R" = { action = "config-reload", repeat = false }
+"Mod+Ctrl+Shift+Alt+N" = { action = "spawn:pkill -f noctalia", repeat = false }
+"Mod+Ctrl+Shift+Alt+S" = { action = "spawn:noctalia -d", repeat = false }
 "Mod+Ctrl+Shift+Alt+Escape" = { action = "session-quit", repeat = false }
 
 # Layer + Noctalia

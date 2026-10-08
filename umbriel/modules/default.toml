@@ -8,6 +8,7 @@ files = [
 	"layout.toml",
 	"general.toml",
 	"keybind.toml",
+  "effects.toml",
 	"overview.toml",
 	"animation.toml",
 	"workspace.toml",

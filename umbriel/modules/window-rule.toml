@@ -1,5 +1,3 @@
-# Umbriel `window-rule` config file
-
 # Window
 [[window_rule]]
 match.is_alone = true

@@ -1,5 +1,3 @@
-# Umbriel `output` config file
-
 [output.eDP-1]
 mode = "1920x1080@60.051"
 position = [0, 0]

@@ -1,8 +1,7 @@
-# Umbriel `environment` config file
-
 [environment]
 QT_QPA_PLATFORMTHEME = "qt6ct"
 CURSOR_THEME = "Bibata-Modern-Catppuccin-Mocha-Blue"
 CURSOR_SIZE = "36"
 XCURSOR_THEME = "Bibata-Modern-Catppuccin-Mocha-Blue"
 XCURSOR_SIZE = "36"
+SDL_VIDEO_DRIVER = "wayland"

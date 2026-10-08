@@ -2,7 +2,7 @@
 
 [layout]
 mode = "scrolling"
-gap = 13
+gap = 16
 extent_presets = [0.25, 0.50, 0.75, 1.0]
 
 [layout.struts]

@@ -1,4 +1,2 @@
-# Umbriel `workspace` config file
-
 [workspaces]
 empty_above = false
