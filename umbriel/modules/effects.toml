@@ -1,6 +1,6 @@
 [include]
 files = [
-  "shaders/border/effect.toml"
+  "shaders/border/effect.toml",
 ]
 
 [effects]

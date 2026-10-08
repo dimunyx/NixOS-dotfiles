@@ -1,7 +1,5 @@
-# Umbriel `overview` config file
-
 [overview]
-zoom = 0.5
 background_blur = false
-workspace_wallpaper = false
 shortcuts = false
+workspace_wallpaper = false
+zoom = 0.5

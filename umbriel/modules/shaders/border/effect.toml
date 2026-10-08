@@ -1,7 +1,7 @@
 [effects.preset."pulse"]
-kind = "border"
-shader = "shader.glsl"
-palette = true
-padding = 0
-speed = 1
 animated = true
+kind = "border"
+padding = 0
+palette = true
+shader = "shader.glsl"
+speed = 1

@@ -1,9 +1,9 @@
 [appearance]
-prefer_no_csd = true
 border_width = 2
-outer_border_width = 0
 corner_radius = 20
 drag_opacity = 1
+outer_border_width = 0
+prefer_no_csd = true
 
 [appearance.blur]
 enabled = false

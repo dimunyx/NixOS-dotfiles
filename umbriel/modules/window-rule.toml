@@ -1,7 +1,7 @@
 # Window
 [[window_rule]]
-match.is_alone = true
 default_maximize = true
+match.is_alone = true
 
 [[window_rule]]
 blur = false
@@ -20,85 +20,85 @@ opacity = 0.95
 
 # Apps
 [[window_rule]]
+default_floating = true
 match.app_id = "org.gnome.Calculator"
-default_floating = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "vesktop"
-default_maximize = true
 
 [[window_rule]]
-match.app_id = "zen"
+default_maximize = true
 default_workspace = 2
-default_maximize = true
+match.app_id = "zen"
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "dev.noctalia.Noctalia"
-default_maximize = true
 
 [[window_rule]]
-match.app_id = "Minecraft 1.8.9"
+default_fullscreen = true
 default_workspace = 1
-default_fullscreen = true
+match.app_id = "Minecraft 1.8.9"
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "com.ktechpit.whatsie"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "blender"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "org.gnome.Boxes"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "org.telegram.desktop"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "Spotify"
-default_maximize = true
 
 [[window_rule]]
-match.app_id = "org.vinegarhq.Sober"
 default_fullscreen = true
+match.app_id = "org.vinegarhq.Sober"
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "com.obsproject.Studio"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "steam_proton"
-default_maximize = true
 
 [[window_rule]]
+default_floating = true
 match.app_id = "PortProton"
-default_floating = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "io.github.elyprismlauncher.ElyPrismLauncher"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "code"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "obsidian"
-default_maximize = true
 
 [[window_rule]]
+default_maximize = true
 match.app_id = "viber"
-default_maximize = true
 
 [[window_rule]]
+default_floating = true
+default_floating_size_px = {width = 800, height = 500}
 match.app_id = "dev.noctalia.UmbrielSharePicker"
-default_floating = true
-default_floating_size_px = { width = 800, height = 500 }
 
 [[window_rule]]
-match.app_id = "xdg-desktop-portal-gtk"
 default_floating = true
-default_floating_size_px = { width = 800, height = 500 }
+default_floating_size_px = {width = 800, height = 500}
+match.app_id = "xdg-desktop-portal-gtk"

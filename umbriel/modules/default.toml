@@ -2,19 +2,19 @@
 
 [include]
 files = [
-	"event.toml",
-	"input.toml",
-	"output.toml",
-	"layout.toml",
-	"general.toml",
-	"keybind.toml",
+  "event.toml",
+  "input.toml",
+  "output.toml",
+  "layout.toml",
+  "general.toml",
+  "keybind.toml",
   "effects.toml",
-	"overview.toml",
-	"animation.toml",
-	"workspace.toml",
+  "overview.toml",
+  "animation.toml",
+  "workspace.toml",
   "screencast.toml",
-	"appearance.toml",
-	"layer-rule.toml",
-	"window-rule.toml",
-	"environment.toml"
+  "appearance.toml",
+  "layer-rule.toml",
+  "window-rule.toml",
+  "environment.toml",
 ]

@@ -1,16 +1,16 @@
 # Umbriel `layout` config file
 
 [layout]
-mode = "scrolling"
-gap = 16
 extent_presets = [0.25, 0.50, 0.75, 1.0]
+gap = 16
+mode = "scrolling"
 
 [layout.struts]
+bottom = 0
 left = 0
 right = 0
 top = 0
-bottom = 0
 
 [layout.scrolling]
-default_extent_fraction = 0.5
 center_underfull_strip = false
+default_extent_fraction = 0.5
