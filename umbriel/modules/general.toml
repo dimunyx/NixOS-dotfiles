@@ -4,3 +4,5 @@ focus_on_activate = false
 honor_restored_maximize = false
 show_cheatsheet = false
 xwayland = true
+xwayland_native_resolution = false
+xwayland_xsettings = true
