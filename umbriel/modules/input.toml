@@ -26,10 +26,17 @@ natural_scroll = false
 scroll_wheel_step = 60
 sensitivity = 0
 
+# Normal
 [[input.device]]
 accel_profile = "flat"
 name = "INSTANT USB GAMING MOUSE "
 sensitivity = -0.7
+
+# Gaming 
+#[[input.device]]
+#accel_profile = "adaptive"
+#name = "INSTANT USB GAMING MOUSE "
+#sensitivity = -1
 
 [input.cursor]
 follows_focus = false
@@ -38,6 +45,12 @@ hide_timeout_ms = 5000
 hide_when_typing = false
 size = 36
 theme = "Bibata-Modern-Catppuccin-Mocha-Blue"
+
+[input.drag_edge_scroll]
+enabled = true
+trigger_zone = 30
+delay_ms = 0
+max_speed = 2500.0
 
 [input.focus]
 follows_mouse = true

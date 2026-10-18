@@ -11,12 +11,15 @@ blur_optimized = false
 tearing = true
 
 [[window_rule]]
+shadow = false
+
+[[window_rule]]
 match.is_focused = true
 opacity = 1
 
 [[window_rule]]
 match.is_focused = false
-opacity = 0.95
+opacity = 0.9
 
 # Apps
 [[window_rule]]

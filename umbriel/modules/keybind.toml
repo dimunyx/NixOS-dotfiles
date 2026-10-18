@@ -55,9 +55,13 @@
 "Mod+Ctrl+Shift+S" = { action = "spawn:noctalia msg panel-toggle nilsonlinux/speedtest-meter:speedtest", repeat = false }
 "Mod+Ctrl+Shift+W" = { action = "spawn:noctalia msg desktop-widgets-toggle-edit", repeat = false }
 
+# Cheetsheet
+"Mod+Shift+Slash" = { action = "cheatsheet-toggle", repeat = false }
+
 # Window
 "Mod+C" = { action = "window-close", repeat = false }
 "Mod+F" = { action = "window-toggle-floating", repeat = false }
+"Mod+P" = { action = "window-toggle-pinned", repeat = false }
 "Mod+Ctrl+R" = { action = "window-cycle-primary-extent", repeat = false }
 "Mod+Ctrl+Shift+R" = { action = "window-cycle-secondary-extent", repeat = false }
 "Mod+Ctrl+F" = { action = "window-toggle-fullscreen", repeat = false }
@@ -111,6 +115,11 @@
 
 # Overview
 "Mod+W" = { action = "overview-toggle", repeat = false }
+
+# Tabs
+"Mod+Ctrl+W" = { action = "column-toggle-tabbed", repeat = false }
+"Mod+Alt+Right" = { action = "column-focus-tab-next", repeat = false }
+"Mod+Alt+Left" = { action = "column-focus-tab-previous", repeat = false }
 
 [hot_corners.top_left]
 enabled = true

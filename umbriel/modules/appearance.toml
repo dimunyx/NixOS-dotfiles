@@ -1,7 +1,7 @@
 [appearance]
 border_width = 2
 corner_radius = 20
-drag_opacity = 1
+drag_opacity = 0.9
 outer_border_width = 0
 prefer_no_csd = true
 
@@ -10,3 +10,21 @@ enabled = false
 
 [appearance.shadow]
 enabled = false
+
+[colors]
+shadow = "#89B4FAFF"
+
+[appearance.tab_bar]
+corner_radius = 20
+font = "Maple Mono NF 12"
+height = 24
+hide_when_single = false
+max_tabs = 0
+overflow = "scroll"
+padding = 2
+position = "top"
+style = "titles"
+tab_gap = 4
+title_align = "center"
+title_format = "{app_id}"
+visible = true

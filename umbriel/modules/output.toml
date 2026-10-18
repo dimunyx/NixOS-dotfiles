@@ -8,3 +8,4 @@ tearing = true
 vrr = "always"
 workspace_axis = "vertical"
 workspaces = 10
+focus_at_startup = true
